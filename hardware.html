@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware - Tronvalk</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="imagenes/logo.png" alt="Tronvalk Logo" class="logo-img">
+                <span>TRONVALK</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="tronvalk.html" class="nav-link">Inicio</a></li>
+                    <li><a href="zona-gamer.html" class="nav-link">Zona Gamer</a></li>
+                    <li><a href="combos.html" class="nav-link">Combos</a></li>
+                    <li><a href="promos.html" class="nav-link">Promos</a></li>
+                    <li><a href="hardware.html" class="nav-link active">Hardware</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION HARDWARE -->
+    <section class="hero zona-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">⚔️ ARSENAL SUPREMO ⚔️</h1>
+            <p class="hero-subtitle">Componentes de Élite - Los Pilares del Poder Absoluto</p>
+            <div class="rune-divider"></div>
+        </div>
+    </section>
+
+    <!-- FILTROS DE COMPONENTES -->
+    <section class="filtros-section">
+        <div class="container">
+            <div class="filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="procesadores">Procesadores</button>
+                <button class="filtro-btn" data-filtro="tarjetas-graficas">Tarjetas Gráficas</button>
+                <button class="filtro-btn" data-filtro="memoria">Memoria RAM</button>
+                <button class="filtro-btn" data-filtro="almacenamiento">Almacenamiento</button>
+                <button class="filtro-btn" data-filtro="fuentes">Fuentes de Poder</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATÁLOGO DE HARDWARE -->
+    <section class="catalogo">
+        <div class="container">
+            <h2 class="section-title">⚔️ COMPONENTES DE PODER ABSOLUTO ⚔️</h2>
+            <p class="section-subtitle">Los mejores componentes para construir tu PC legendario</p>
+            <div class="productos-grid" id="hardwareGrid">
+                <!-- PROCESADORES -->
+                <div class="producto-card" data-categoria="procesadores">
+                    <div class="producto-image hw-1">
+                        <img src="imagenes/Gamer.png" alt="Intel i9-13900K" class="product-img">
+                        <span class="badge">TOP TIER</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>🔥 Intel i9-13900K 🔥</h3>
+                        <p class="descripcion-vikinga">24 Núcleos | 5.8 GHz | Socket LGA1700 | 253W TDP</p>
+                        <div class="especificaciones">
+                            <span>⚡ Ultra Performance</span>
+                            <span>🎮 Gaming + Streaming</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$589</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="procesadores">
+                    <div class="producto-image hw-2">
+                        <img src="imagenes/Gamer.png" alt="AMD Ryzen 9 7950X" class="product-img">
+                        <span class="badge">ÉPICO</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>💥 AMD Ryzen 9 7950X 💥</h3>
+                        <p class="descripcion-vikinga">16 Núcleos | 5.7 GHz | Socket AM5 | 162W TDP</p>
+                        <div class="especificaciones">
+                            <span>🚀 Super Rápido</span>
+                            <span>💰 Precio Competitivo</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$549</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="procesadores">
+                    <div class="producto-image hw-3">
+                        <img src="imagenes/Gamer.png" alt="Intel i7-13700K" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ Intel i7-13700K ⚡</h3>
+                        <p class="descripcion-vikinga">16 Núcleos | 5.4 GHz | Socket LGA1700 | 125W TDP</p>
+                        <div class="especificaciones">
+                            <span>🎮 Gaming Puro</span>
+                            <span>💯 Excelente Relación</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$419</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <!-- TARJETAS GRÁFICAS -->
+                <div class="producto-card" data-categoria="tarjetas-graficas">
+                    <div class="producto-image hw-4">
+                        <img src="imagenes/Gamer.png" alt="RTX 4090" class="product-img">
+                        <span class="badge">LEGENDARIO</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>👑 NVIDIA RTX 4090 👑</h3>
+                        <p class="descripcion-vikinga">24GB GDDR6X | 575W | DLSS 3.0 | Ray Tracing</p>
+                        <div class="especificaciones">
+                            <span>🔥 Máxima Performance</span>
+                            <span>4K Gaming Ultra</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$1,599</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="tarjetas-graficas">
+                    <div class="producto-image hw-5">
+                        <img src="imagenes/Gamer.png" alt="RTX 4080" class="product-img">
+                        <span class="badge">ÉPICO</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>💎 NVIDIA RTX 4080 💎</h3>
+                        <p class="descripcion-vikinga">16GB GDDR6X | 320W | DLSS 3.0 | Ray Tracing</p>
+                        <div class="especificaciones">
+                            <span>🎮 High-End Gaming</span>
+                            <span>2K Ultra Settings</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$1,119</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="tarjetas-graficas">
+                    <div class="producto-image hw-6">
+                        <img src="imagenes/Gamer.png" alt="RTX 4070" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ NVIDIA RTX 4070 ⚡</h3>
+                        <p class="descripcion-vikinga">12GB GDDR6X | 200W | DLSS 3.0 | Ray Tracing</p>
+                        <div class="especificaciones">
+                            <span>🎮 Gaming Competitivo</span>
+                            <span>1440p Max Settings</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$699</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <!-- MEMORIA RAM -->
+                <div class="producto-card" data-categoria="memoria">
+                    <div class="producto-image hw-7">
+                        <img src="imagenes/Gamer.png" alt="RAM 32GB DDR5" class="product-img">
+                        <span class="badge">DDR5</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>💾 RAM 32GB DDR5 6000MHz 💾</h3>
+                        <p class="descripcion-vikinga">Kit 2x16GB | Latencia CAS 30 | RGB | Garantía Vitalicia</p>
+                        <div class="especificaciones">
+                            <span>⚡ Súper Rápida</span>
+                            <span>🎮 Gaming Optimizada</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$289</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="memoria">
+                    <div class="producto-image hw-8">
+                        <img src="imagenes/Gamer.png" alt="RAM 16GB DDR4" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>💾 RAM 16GB DDR4 3600MHz 💾</h3>
+                        <p class="descripcion-vikinga">Kit 2x8GB | Latencia CAS 18 | RGB | RGB Sincronizable</p>
+                        <div class="especificaciones">
+                            <span>🎮 Gaming Standard</span>
+                            <span>💯 Buen Precio</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$129</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="memoria">
+                    <div class="producto-image hw-9">
+                        <img src="imagenes/Gamer.png" alt="RAM 64GB DDR5" class="product-img">
+                        <span class="badge">ULTRA</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>💾 RAM 64GB DDR5 6000MHz 💾</h3>
+                        <p class="descripcion-vikinga">Kit 2x32GB | Latencia CAS 30 | RGB | Profesional</p>
+                        <div class="especificaciones">
+                            <span>🚀 Mega Potencia</span>
+                            <span>💼 Streaming + Gaming</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$569</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <!-- ALMACENAMIENTO -->
+                <div class="producto-card" data-categoria="almacenamiento">
+                    <div class="producto-image hw-10">
+                        <img src="imagenes/Gamer.png" alt="SSD NVMe 2TB" class="product-img">
+                        <span class="badge">NVMe</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ SSD NVMe 2TB PCIe 4.0 ⚡</h3>
+                        <p class="descripcion-vikinga">7,400 MB/s | Disipador Térmico | Garantía 5 años</p>
+                        <div class="especificaciones">
+                            <span>🚀 Ultra Rápido</span>
+                            <span>🎮 Gaming Ultimate</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$199</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="almacenamiento">
+                    <div class="producto-image hw-11">
+                        <img src="imagenes/Gamer.png" alt="SSD SATA 1TB" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>💾 SSD SATA 1TB 550 MB/s 💾</h3>
+                        <p class="descripcion-vikinga">Lectura 550 MB/s | Escritura 500 MB/s | Confiable</p>
+                        <div class="especificaciones">
+                            <span>💰 Precio Accesible</span>
+                            <span>🎮 Gaming Base</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$79</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <!-- FUENTES DE PODER -->
+                <div class="producto-card" data-categoria="fuentes">
+                    <div class="producto-image hw-12">
+                        <img src="imagenes/Gamer.png" alt="Fuente 1200W Modular" class="product-img">
+                        <span class="badge">MODULAR</span>
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ Fuente 1200W Modular Gold ⚡</h3>
+                        <p class="descripcion-vikinga">Certificación 80+ Gold | Modular Completo | Garantía 10 años</p>
+                        <div class="especificaciones">
+                            <span>🔌 Máxima Estabilidad</span>
+                            <span>🖥️ PC Gamer Ultimate</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$289</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="fuentes">
+                    <div class="producto-image hw-13">
+                        <img src="imagenes/Gamer.png" alt="Fuente 850W Modular" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ Fuente 850W Modular Gold ⚡</h3>
+                        <p class="descripcion-vikinga">Certificación 80+ Gold | Modular Completo | Garantía 10 años</p>
+                        <div class="especificaciones">
+                            <span>💪 Muy Confiable</span>
+                            <span>🎮 Gaming Premium</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$189</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="fuentes">
+                    <div class="producto-image hw-14">
+                        <img src="imagenes/Gamer.png" alt="Fuente 650W Modular" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>⚡ Fuente 650W Modular Bronze ⚡</h3>
+                        <p class="descripcion-vikinga">Certificación 80+ Bronze | Modular | Garantía 5 años</p>
+                        <div class="especificaciones">
+                            <span>💰 Valor Excelente</span>
+                            <span>🎮 Gaming Mid-Range</span>
+                        </div>
+                        <div class="precio">
+                            <span class="precio-actual">$99</span>
+                        </div>
+                        <button class="comprar-btn">🛡️ Reclamar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUÍA DE COMPONENTES -->
+    <section class="guia-componentes">
+        <div class="container">
+            <h2 class="section-title">⚔️ GUÍA DE SELECCIÓN DE COMPONENTES ⚔️</h2>
+            <div class="guia-grid">
+                <div class="guia-card">
+                    <h3>🎮 Para Gaming 1080p</h3>
+                    <ul>
+                        <li>Procesador: i5 o Ryzen 5</li>
+                        <li>GPU: RTX 3060 o similar</li>
+                        <li>RAM: 16GB DDR4</li>
+                        <li>SSD: 500GB NVMe</li>
+                    </ul>
+                </div>
+                <div class="guia-card">
+                    <h3>🎮 Para Gaming 1440p</h3>
+                    <ul>
+                        <li>Procesador: i7 o Ryzen 7</li>
+                        <li>GPU: RTX 4070 o superior</li>
+                        <li>RAM: 32GB DDR5</li>
+                        <li>SSD: 1TB NVMe PCIe 4.0</li>
+                    </ul>
+                </div>
+                <div class="guia-card">
+                    <h3>🎮 Para Gaming 4K</h3>
+                    <ul>
+                        <li>Procesador: i9 o Ryzen 9</li>
+                        <li>GPU: RTX 4080 o RTX 4090</li>
+                        <li>RAM: 32-64GB DDR5</li>
+                        <li>SSD: 2TB NVMe PCIe 4.0</li>
+                    </ul>
+                </div>
+                <div class="guia-card">
+                    <h3>🎬 Para Streaming</h3>
+                    <ul>
+                        <li>Procesador: i9 o Ryzen 9</li>
+                        <li>GPU: RTX 4070 o superior</li>
+                        <li>RAM: 64GB DDR5</li>
+                        <li>SSD: 2TB NVMe (Dual)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>⚔️ TRONVALK ⚔️</h3>
+                    <p>La forja definitiva para guerreros gamers</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="tronvalk.html">Inicio</a></li>
+                        <li><a href="zona-gamer.html">Zona Gamer</a></li>
+                        <li><a href="combos.html">Combos</a></li>
+                        <li><a href="promos.html">Promos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📧 info@tronvalk.com</p>
+                    <p>📱 +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TRONVALK. Todos los derechos reservados. ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Sistema de filtros para Hardware
+        document.querySelectorAll('.filtro-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remover active de todos
+                document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('active'));
+                // Añadir active al clickeado
+                btn.classList.add('active');
+
+                const filtro = btn.dataset.filtro;
+                const productos = document.querySelectorAll('.producto-card');
+
+                productos.forEach(producto => {
+                    if (filtro === 'todos' || producto.dataset.categoria === filtro) {
+                        producto.style.display = 'block';
+                        setTimeout(() => {
+                            producto.classList.add('visible');
+                        }, 10);
+                    } else {
+                        producto.classList.remove('visible');
+                        setTimeout(() => {
+                            producto.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Mostrar todos los productos al cargar
+        document.querySelectorAll('.producto-card').forEach(card => {
+            card.classList.add('visible');
+        });
+    </script>
+</body>
+</html>
