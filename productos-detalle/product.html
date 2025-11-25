@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Detalle de Producto - Tronvalk</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .product-wrap{max-width:1000px;margin:40px auto;padding:0 20px}
+    .product-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}
+    .product-grid img{width:100%;border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+    .price{font-size:1.6rem;color:#ffd700;font-weight:700;margin:8px 0}
+    .specs{color:#ddd;margin-top:12px}
+    .specs li{margin:6px 0}
+    .comprar-btn{padding:10px 16px;border-radius:6px;background:#ff2e2e;color:#fff;border:none;cursor:pointer}
+    .back-btn{padding:10px 14px;border-radius:6px;background:#fff;color:#0a0e27;border:1px solid #ccc;cursor:pointer}
+    @media(max-width:768px){.product-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container"><div class="logo"><img src="../imagenes/logo.png" alt="logo" class="logo-img"><span>TRONVALK</span></div></div>
+  </header>
+
+  <main class="product-wrap">
+    <div id="notFound" style="display:none;color:#f55;background:#2a0;padding:12px;border-radius:6px">Producto no encontrado.</div>
+    <div id="product" style="display:none">
+      <h1 id="title"></h1>
+      <div class="product-grid">
+        <div><img id="img" src="" alt="Producto"></div>
+        <div>
+          <div class="price" id="price"></div>
+          <div id="short" style="color:#ccc"></div>
+          <ul class="specs" id="specs"></ul>
+          <div style="margin-top:16px"><button class="comprar-btn" id="buy">🛡️ Comprar</button> <button class="back-btn" onclick="history.back()">← Volver</button></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function getQueryParam(name){
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+
+    const id = getQueryParam('id');
+    if(!id){
+      document.getElementById('notFound').style.display='block';
+    } else {
+      fetch('productos.json').then(r=>r.json()).then(data=>{
+        const prod = data.products.find(p=>p.id===id);
+        if(!prod){document.getElementById('notFound').style.display='block'; return}
+        document.getElementById('product').style.display='block';
+        document.getElementById('title').textContent = prod.title;
+        document.getElementById('img').src = prod.image;
+        document.getElementById('img').alt = prod.title;
+        document.getElementById('price').textContent = prod.price;
+        document.getElementById('short').textContent = prod.short;
+        const specs = document.getElementById('specs'); specs.innerHTML='';
+        (prod.specs||[]).forEach(s=>{ const li=document.createElement('li'); li.textContent=s; specs.appendChild(li)});
+        document.getElementById('buy').addEventListener('click', ()=>{ alert('Añadido al carrito (simulado): '+prod.title) });
+      }).catch(err=>{console.error(err);document.getElementById('notFound').style.display='block'});
+    }
+  </script>
+</body>
+</html>

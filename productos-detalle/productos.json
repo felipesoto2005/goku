@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "pc-gamer-ultimate",
+      "title": "PC Gamer Ultimate",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (1).png",
+      "price": "$4,599",
+      "short": "Intel i9-13900K | RTX 4090 | 32GB RAM | 2TB SSD",
+      "specs": ["Intel i9-13900K","NVIDIA RTX 4090","32GB RAM","2TB SSD"],
+      "badge": "ÉPICO"
+    },
+    {
+      "id": "laptop-gamer-pro",
+      "title": "Laptop Gamer Pro",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (2).png",
+      "price": "$1,839",
+      "short": "RTX 4080 | 16GB RAM | 1TB SSD | 165Hz | i7-13700H",
+      "specs": ["RTX 4080","16GB RAM","1TB SSD","i7-13700H"],
+      "badge": "-20%"
+    },
+    {
+      "id": "pc-gamer-intermedio",
+      "title": "PC Gamer Intermedio",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (3).png",
+      "price": "$1,999",
+      "short": "Ryzen 7 5700X | RTX 3070 | 16GB RAM | 1TB SSD",
+      "specs": ["Ryzen 7 5700X","RTX 3070","16GB RAM","1TB SSD"],
+      "badge": ""
+    },
+    {
+      "id": "pc-gamer-competitivo",
+      "title": "PC Gamer Competitivo",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (4).png",
+      "price": "$2,499",
+      "short": "Intel i9-12900K | RTX 4080 | 32GB RAM | 1TB SSD",
+      "specs": ["Intel i9-12900K","RTX 4080","32GB RAM","1TB SSD"],
+      "badge": "ESPORTS"
+    },
+    {
+      "id": "pc-gamer-streaming",
+      "title": "PC Gamer Streaming",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (5).png",
+      "price": "$3,299",
+      "short": "Ryzen 9 5950X | RTX 4070 Ti | 64GB RAM | 2TB SSD",
+      "specs": ["Ryzen 9 5950X","RTX 4070 Ti","64GB RAM","2TB SSD"],
+      "badge": "CREADOR"
+    },
+    {
+      "id": "pc-gamer-4k-workstation",
+      "title": "PC Gamer 4K Workstation",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (6).png",
+      "price": "$5,299",
+      "short": "Intel i9-13900KS | RTX 4090 Pro | 128GB RAM | 4TB SSD",
+      "specs": ["Intel i9-13900KS","RTX 4090 Pro","128GB RAM","4TB SSD"],
+      "badge": "WORKSTATION"
+    },
+    {
+      "id": "pc-gamer-entrada",
+      "title": "PC Gamer Entrada",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (8).png",
+      "price": "$1,299",
+      "short": "Ryzen 5 5600X | RTX 3060 Ti | 16GB RAM | 512GB SSD",
+      "specs": ["Ryzen 5 5600X","RTX 3060 Ti","16GB RAM","512GB SSD"],
+      "badge": "INICIANTES"
+    },
+    {
+      "id": "pc-gamer-rtx-avanzado",
+      "title": "PC Gamer RTX Avanzado",
+      "category": "computadoras",
+      "image": "../imagenes/pcsGamer (9).png",
+      "price": "$3,799",
+      "short": "Intel i7-12700K | RTX 4070 Super | 32GB RAM | 1.5TB SSD",
+      "specs": ["Intel i7-12700K","RTX 4070 Super","32GB RAM","1.5TB SSD"],
+      "badge": "RAYTRACING"
+    },
+    {
+      "id": "laptop-gaming-pro-max",
+      "title": "Laptop Gaming Pro Max",
+      "category": "computadoras",
+      "image": "../imagenes/pscGamer(10).png",
+      "price": "$4,199",
+      "short": "Intel i9-13980HX | RTX 4090 Laptop | 64GB RAM | 2TB SSD",
+      "specs": ["Intel i9-13980HX","RTX 4090 Laptop","64GB RAM","2TB SSD"],
+      "badge": "PREMIUM"
+    },
+    {
+      "id": "teclado-mecanico-rgb",
+      "title": "Teclado Mecánico RGB",
+      "category": "perifericos",
+      "image": "../imagenes/Teclado Mecánico RGB.png",
+      "price": "$149",
+      "short": "Switches Gateron | Retroiluminación RGB | Inalámbrico",
+      "specs": ["Switches Gateron","RGB","Inalámbrico"],
+      "badge": "MECÁNICO"
+    },
+    {
+      "id": "raton-gamer-pro",
+      "title": "Ratón Gamer Pro",
+      "category": "perifericos",
+      "image": "../imagenes/Ratón Gamer Pro.png",
+      "price": "$89",
+      "short": "Sensor PixArt 16000 DPI | RGB Personalizable | Botones Programables",
+      "specs": ["PixArt 16000 DPI","RGB","Botones Programables"],
+      "badge": "LÁSER 16K"
+    },
+    {
+      "id": "auriculares-gaming-7-1",
+      "title": "Auriculares Gaming 7.1",
+      "category": "perifericos",
+      "image": "../imagenes/Auriculares Gaming 7.1.png",
+      "price": "$179",
+      "short": "Sonido Envolvente | Micrófono Cancelación Ruido | Acolchado Confort",
+      "specs": ["Surround 7.1","Micrófono Cancelación Ruido","Acolchado"],
+      "badge": "SURROUND 7.1"
+    },
+    {
+      "id": "mousepad-gamer-xxl",
+      "title": "Mousepad Gamer XXL",
+      "category": "perifericos",
+      "image": "../imagenes/Mousepad Gamer XXL.png",
+      "price": "$59",
+      "short": "900x400mm | RGB Integrado | Borde Reforzado | Antideslizante",
+      "specs": ["900x400mm","RGB","Antideslizante"],
+      "badge": ""
+    },
+    {
+      "id": "monitor-4k-144hz",
+      "title": "Monitor 4K 144Hz",
+      "category": "monitores",
+      "image": "../imagenes/Monitor 4K 144Hz.png",
+      "price": "$899",
+      "short": "27" | 4K UHD | 144Hz | IPS | HDR 1000",
+      "specs": ["27\" 4K","144Hz","IPS","HDR 1000"],
+      "badge": "4K UHD"
+    },
+    {
+      "id": "monitor-1440p-240hz",
+      "title": "Monitor 1440p 240Hz",
+      "category": "monitores",
+      "image": "../imagenes/Monitor 1440p 240Hz .png",
+      "price": "$594",
+      "short": "27" | 1440p | 240Hz | IPS | 1ms",
+      "specs": ["27\" 1440p","240Hz","IPS","1ms"],
+      "badge": "-15%"
+    },
+    {
+      "id": "monitor-1080p-360hz",
+      "title": "Monitor 1080p 360Hz",
+      "category": "monitores",
+      "image": "../imagenes/Monitor 1080p 360Hz.png",
+      "price": "$449",
+      "short": "24" | 1080p | 360Hz | TN | 0.5ms",
+      "specs": ["24\" 1080p","360Hz","TN","0.5ms"],
+      "badge": ""
+    }
+  ]
+}

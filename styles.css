@@ -1911,3 +1911,68 @@ body {
         display: none;
     }
 }
+
+/* ===========================
+   ENLACES CON BOTONES
+   =========================== */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.producto-card a {
+    display: block;
+    width: 100%;
+}
+
+.producto-card a .comprar-btn {
+    width: 100%;
+}
+
+/* ===========================
+   MASCOTA HERO
+   =========================== */
+
+.hero .hero-content {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+    flex-wrap: wrap;
+}
+
+.mascot-container {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascot-img {
+    width: 320px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 28px 80px rgba(0,0,0,0.65), 0 8px 24px rgba(0,220,180,0.08);
+    border: 4px solid rgba(0,220,180,0.06);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    display: block;
+}
+
+.mascot-img:hover {
+    transform: translateY(-10px) rotate(-3deg) scale(1.02);
+    box-shadow: 0 36px 90px rgba(0,0,0,0.75), 0 14px 40px rgba(0,220,180,0.14);
+}
+
+@media (max-width: 1100px) {
+    .mascot-img { width: 260px; }
+}
+
+@media (max-width: 800px) {
+    .mascot-img { width: 180px; }
+    .hero .hero-content { gap: 1rem; }
+}
+
+@media (max-width: 480px) {
+    .mascot-img { width: 130px; }
+}
+
