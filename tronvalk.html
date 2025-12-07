@@ -32,29 +32,41 @@
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero" id="inicio">
-        <div class="hero-content">
-            <div class="mascot-container">
-                <img src="imagenes/mascota-tronvalk.png" alt="Mascota Tronvalk" class="mascot-img" loading="lazy" decoding="async">
-            </div>
-            <h1 class="hero-title">⚔️ TRONVALK ⚔️</h1>
-            <p class="hero-subtitle">Forja de Dioses Gamers - Equipos Legendarios para Guerreros de la Tecnología</p>
-            <div class="rune-divider"></div>
-            <button class="cta-button" onclick="document.getElementById('zonas').scrollIntoView({behavior: 'smooth'})">
+    <div class="hero-wrapper" style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 2rem 0; overflow: hidden;">
+
+        <!-- Grupo Izquierda -->
+        <div style="display: flex; gap: 1rem; flex: 1 1 0; justify-content: flex-end; align-items: center; min-width: 0;">
+            <img src="/imagenes/Gamer.png" alt="Decoración izquierda" style="max-width: 150px; width: 100%; height: auto; object-fit: contain;">
+            <img src="/imagenes/Monitor 1080p 360Hz.png" alt="Decoración izquierda" style="max-width: 200px; width: 100%; height: auto; object-fit: contain;">
+        </div>
+
+        <!-- Contenido central -->
+        <div class="hero-content" style="text-align: center; flex: 0 0 auto; margin: 0 2rem; max-width: 600px; width: 100%;">
+            <h1 style="text-align: center; margin-top: 3rem; font-family: 'Cinzel', serif; font-size: clamp(3rem, 8vw, 7rem); color: #00f3ff; text-shadow: 0 0 20px #00f3ff; margin-bottom: 1rem; line-height: 1.2;">
+                ⚔️TRONVALK⚔️
+            </h1>
+            <p style="font-family: 'Cinzel', serif; font-size: clamp(1.5rem, 4vw, 3.7rem); color: #00f3ff; text-shadow: 0 0 20px #00f3ff; margin-bottom: 1rem;">Tu destino definitivo para tecnología de vanguardia.</p>
+
+            <!-- Botón centrado y espaciado -->
+            <button class="cta-button" style="margin-top: 3rem; margin-bottom: 2rem;" onclick="document.getElementById('zonas').scrollIntoView({behavior: 'smooth'})">
                 ⚡ Explorar Armería ⚡
             </button>
         </div>
-        <div class="hero-background">
-            <div class="viking-banner">
-                <img src="imagenes/titulo.png" alt="Tronvalk Banner" class="titulo-banner">
-            </div>
+
+        <!-- Grupo Derecha -->
+        <div style="display: flex; gap: 1rem; flex: 1 1 0; justify-content: flex-start; align-items: center; min-width: 0;">
+            <img src="/imagenes/pcsGamer (2).png" alt="Decoración derecha" style="max-width: 150px; width: 100%; height: auto; object-fit: contain;">
+            <img src="/imagenes/promociones.png" alt="Decoración derecha" style="max-width: 200px; width: 100%; height: auto; object-fit: contain;">
         </div>
-    </section>
+
+    </div>
 
     <!-- ZONAS DE BATALLA (CATEGORÍAS) -->
     <section class="zonas-batalla" id="zonas">
         <div class="container">
-            <h2 class="section-title">⚔️ ZONAS DE BATALLA ⚔️</h2>
+            <h2 style="text-align: center; font-family: 'Cinzel', serif; font-size: 4rem; color: #00f3ff; text-shadow: 0 0 20px #00f3ff; margin-bottom: 1rem;">
+  ⚔️ ZONAS DE BATALLA ⚔️
+</h2>
             <div class="zonas-grid">
                 <a href="zona-gamer.html" class="zona-card zona-1">
                     <div class="zona-icon">🎮</div>

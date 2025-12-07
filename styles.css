@@ -47,6 +47,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+
+    
 }
 
 /* ===========================
@@ -226,7 +228,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 4px;
     animation: slideInLeft 1s ease-out;
-    text-shadow: 0 0 40px rgba(255, 215, 0, 0.4);
+    text-shadow: 0 0 40px rgba(30, 27, 12, 0.4);
 }
 
 .hero-subtitle {
@@ -250,25 +252,23 @@ body {
     transition: var(--transition);
     text-transform: uppercase;
     letter-spacing: 2px;
-    box-shadow: 0 0 30px rgba(255, 215, 0, 0.4), inset 0 0 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(2, 26, 146, 0.4), inset 0 0 20px rgba(21, 10, 83, 0.1);
     animation: slideInLeft 1s ease-out 0.4s both;
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(255, 215, 0, 0.6), inset 0 0 30px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 40px rgba(2, 37, 82, 0.6), inset 0 0 30px rgba(255, 255, 255, 0.2);
 }
 
 .cta-button:active {
     transform: translateY(-1px);
 }
 
-.hero-background {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
+.cta-button {
+  background: linear-gradient(135deg, #0f0e41, #8a2be2); /* azul a púrpura */
+  border: 3px solid #00f3ff; /* borde azul eléctrico */
+  color: white; /* texto blanco para contraste */
 }
 
 .viking-banner {
