@@ -1,0 +1,1 @@
+ShakingTank Controlador de concentrador de ventilador ARGB y PWM, 9 puertos con controlador y entrada de alimentación SATA, divisor magnético de placa trasera de 5 V, 3 pines RGB
