@@ -104,6 +104,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    text-decoration: none;
 }
 
 .logo-img {
@@ -117,6 +118,8 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-link {
@@ -171,89 +174,91 @@ body {
 }
 
 /* ===========================
-   HERO SECTION
+   HERO ADAPTADO A TU HTML
    =========================== */
 
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 100vh;
-    padding: 60px 0;
-    background: transparent;
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(255, 215, 0, 0.15) 0%, transparent 70%);
-    border-radius: 50%;
-    animation: float 20s ease-in-out infinite;
-}
-
-.hero::after {
-    content: '';
-    position: absolute;
-    bottom: -30%;
-    left: -10%;
-    width: 500px;
-    height: 500px;
-    background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 70%);
-    border-radius: 50%;
-    animation: float 15s ease-in-out infinite reverse;
-}
-
 .hero-content {
-    flex: 1;
-    z-index: 10;
-    padding: 0 20px;
+    flex: 0 0 auto;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 2rem;
+    z-index: 5;
+
+    /* mover un poco a la izquierda */
+    transform: translateX(-80px); /* antes eran -40px o margin-left -80 */
 }
 
-.hero-title {
-    font-size: 4rem;
-    font-weight: 900;
-    margin-bottom: 20px;
-    background: linear-gradient(135deg, var(--accent-gold), var(--accent-cyan), var(--accent-green));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+/* Título */
+.hero-content h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Cinzel', serif;
+    font-size: clamp(3rem, 8vw, 7rem);
+    color: #00f3ff;
+    text-shadow: 0 0 20px #00f3ff;
     line-height: 1.2;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    animation: slideInLeft 1s ease-out;
-    text-shadow: 0 0 40px rgba(30, 27, 12, 0.4);
+    text-align: center;
+    transform: translateX(-140px);
 }
 
-.hero-subtitle {
-    font-size: 1.4rem;
-    color: var(--accent-gold);
-    margin-bottom: 40px;
-    animation: slideInLeft 1s ease-out 0.2s both;
-    font-style: italic;
-    letter-spacing: 1px;
+/* Descripción */
+.hero-content p {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1.5rem, 4vw, 3.7rem);
+    color: #00f3ff;
+    text-shadow: 0 0 20px #00f3ff;
+    margin-bottom: 1rem;
+    text-align: center;
+    transform: translateX(50px);
 }
+
+.hero-content .cta-button {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    transform: translateX(50px) !important;
+}
+
+/* imágenes laterales */
+.hero-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* lado izquierdo */
+.hero-wrapper > div:first-child {
+    display: flex;
+    gap: 1rem;
+    flex: 1 1 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* lado derecho */
+.hero-wrapper > div:last-child {
+    display: flex;
+    gap: 1rem;
+    flex: 1 1 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* ===========================
+   BOTÓN CTA (UNIFICADO)
+   =========================== */
 
 .cta-button {
     padding: 18px 50px;
     font-size: 1.2rem;
     font-weight: bold;
-    border: 3px solid var(--accent-gold);
+    border: 3px solid #00f3ff;
     border-radius: 0;
-    background: linear-gradient(135deg, var(--accent-gold), var(--accent-cyan));
-    color: var(--primary-dark);
+    background: linear-gradient(135deg, #0f0e41, #8a2be2);
+    color: white;
     cursor: pointer;
     transition: var(--transition);
     text-transform: uppercase;
     letter-spacing: 2px;
     box-shadow: 0 0 30px rgba(2, 26, 146, 0.4), inset 0 0 20px rgba(21, 10, 83, 0.1);
-    animation: slideInLeft 1s ease-out 0.4s both;
 }
 
 .cta-button:hover {
@@ -265,32 +270,38 @@ body {
     transform: translateY(-1px);
 }
 
-.cta-button {
-  background: linear-gradient(135deg, #0f0e41, #8a2be2); /* azul a púrpura */
-  border: 3px solid #00f3ff; /* borde azul eléctrico */
-  color: white; /* texto blanco para contraste */
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 900px) {
+    .hero-wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero-wrapper > div:first-child,
+    .hero-wrapper > div:last-child {
+        justify-content: center;
+    }
+
+    .hero-wrapper img {
+        max-width: 200px;
+    }
 }
 
-.viking-banner {
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    animation: float 3s ease-in-out infinite;
-}
+@media (max-width: 600px) {
+    .nav-list {
+        display: none;
+    }
 
-.titulo-banner {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    filter: drop-shadow(0 0 30px rgba(255, 215, 0, 0.4));
-    animation: float 3s ease-in-out infinite;
+    .hamburger {
+        display: flex;
+    }
 }
 
 /* ===========================
-   ZONAS DE BATALLA
+   SECCIÓN ZONAS DE BATALLA
    =========================== */
 
 .zonas-batalla {
@@ -300,6 +311,17 @@ body {
     margin: 0;
 }
 
+/* Título */
+.zonas-title {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: #00f3ff;
+    text-shadow: 0 0 20px #00f3ff;
+    margin-bottom: 1rem;
+}
+
+/* Grid */
 .zonas-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -307,8 +329,12 @@ body {
     margin-top: 40px;
 }
 
+/* Tarjetas */
 .zona-card {
-    background: linear-gradient(135deg, rgba(26, 47, 78, 0.3) 0%, rgba(15, 24, 35, 0.3) 100%);
+    background: linear-gradient(135deg,
+         rgba(26, 47, 78, 0.3) 0%,
+         rgba(15, 24, 35, 0.3) 100%
+    );
     border: 3px solid var(--accent-gold);
     border-radius: 0;
     padding: 30px;
@@ -317,12 +343,15 @@ body {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(255, 215, 0, 0.2), inset 0 0 20px rgba(255, 215, 0, 0.05);
+    box-shadow: 
+        0 0 20px rgba(255, 215, 0, 0.2),
+        inset 0 0 20px rgba(255, 215, 0, 0.05);
     text-decoration: none;
     display: block;
     color: inherit;
 }
 
+/* Shine effect */
 .zona-card::before {
     content: '';
     position: absolute;
@@ -330,7 +359,12 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 215, 0, 0.2), transparent);
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 215, 0, 0.2),
+        transparent
+    );
     transition: left 0.5s ease;
 }
 
@@ -338,19 +372,27 @@ body {
     left: 100%;
 }
 
+/* Hover global */
 .zona-card:hover {
     transform: translateY(-10px);
     border-color: var(--accent-cyan);
-    box-shadow: 0 15px 40px rgba(255, 215, 0, 0.3), inset 0 0 30px rgba(0, 255, 136, 0.1);
-    background: linear-gradient(135deg, rgba(26, 47, 78, 0.5) 0%, rgba(15, 24, 35, 0.5) 100%);
+    box-shadow:
+        0 15px 40px rgba(255, 215, 0, 0.3),
+        inset 0 0 30px rgba(0, 255, 136, 0.1);
+    background: linear-gradient(135deg,
+        rgba(26, 47, 78, 0.5) 0%,
+        rgba(15, 24, 35, 0.5) 100%
+    );
 }
 
+/* Ícono */
 .zona-icon {
     font-size: 3.5rem;
     margin-bottom: 15px;
     animation: float 3s ease-in-out infinite;
 }
 
+/* Títulos dentro de cada card */
 .zona-card h3 {
     color: var(--accent-gold);
     font-size: 1.5rem;
@@ -359,6 +401,7 @@ body {
     letter-spacing: 2px;
 }
 
+/* Texto dentro de card */
 .zona-card p {
     color: var(--accent-cyan);
     font-size: 0.95rem;
