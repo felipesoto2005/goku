@@ -202,22 +202,50 @@ loadStyle.textContent = `
 document.head.appendChild(loadStyle);
 
 // =============================================
-// CONTADOR DE CARRITO (OPCIONAL)
+// SCRIPT DE CARRITO - TRONVALK
 // =============================================
 
-let cartCount = 0;
+// Contador de carrito en header
+let cartCount = parseInt(localStorage.getItem('cartCount')) || 0;
+const cartCounter = document.querySelector('#cart-counter'); // span en header
 
-function addToCart() {
-    cartCount++;
-    console.log(`Productos en carrito: ${cartCount}`);
+if (cartCounter) cartCounter.textContent = cartCount;
+
+// Función para convertir precio string a número
+function parsePrecio(precioTexto) {
+    return parseFloat(precioTexto.replace(/\$|,/g, ''));
 }
 
-// Asociar función a botones de compra
+// No redeclarar comprarBtns, solo asegurarse que exista
+// const comprarBtns = document.querySelectorAll('.comprar-btn');
+
 comprarBtns.forEach(btn => {
     btn.addEventListener('click', () => {
-        addToCart();
+        const productoCard = btn.closest('.producto-card');
+        const producto = {
+            nombre: productoCard.querySelector('h3').textContent,
+            precio: parsePrecio(productoCard.querySelector('.precio').textContent),
+            img: productoCard.querySelector('img').src,
+            cantidad: 1
+        };
+
+        // Guardar producto en localStorage
+        let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        const index = carrito.findIndex(p => p.nombre === producto.nombre);
+        if (index > -1) {
+            carrito[index].cantidad += 1;
+        } else {
+            carrito.push(producto);
+        }
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+
+        // Actualizar contador
+        cartCount++;
+        localStorage.setItem('cartCount', cartCount);
+        if (cartCounter) cartCounter.textContent = cartCount;
     });
 });
+
 
 // =============================================
 // SMOOTH SCROLL MEJORADO

@@ -232,7 +232,7 @@ body {
     max-width: 1600px;   /* Mantiene un marco bonito */
     margin: 0 auto;      /* Centra todo el grid */
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /
+    grid-template-columns: repeat(5, 1fr); 
     gap: 25px;           /* Espacio entre tarjetas */
     padding: 40px 0;
 }
@@ -518,4 +518,20 @@ body {
     100% {
         left: 100%;
     }
+}
+.header-carrito {
+    background-color: var(--accent-green); /* color de fondo del carrito */
+    color: var(--primary-dark);            /* color del ícono o texto */
+    border: 2px solid var(--accent-green);
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header-carrito:hover {
+    background-color: #00cc6a; /* un verde más oscuro al pasar el mouse */
 }

@@ -568,282 +568,37 @@ body {
     transform: scale(1.05);
     box-shadow: 0 12px 30px rgba(255, 215, 0, 0.5);
 }
-
 /* ===========================
-   SECCIÓN COMBOS
+   TARJETAS UNIFICADAS - OFERTAS / COMBOS / HARDWARE
    =========================== */
 
-.combos {
-    padding: 80px 0;
-    background: transparent;
-    border-top: 3px solid var(--accent-gold);
-    margin: 0;
-}
-
-.combos-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.combo-card {
+.producto-card {
     background: linear-gradient(135deg, rgba(26, 47, 78, 0.3) 0%, rgba(15, 24, 35, 0.3) 100%);
     border: 3px solid var(--accent-purple);
-    border-radius: 0;
-    padding: 0;
-    transition: var(--transition);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
     position: relative;
+    margin-bottom: 25px;
     box-shadow: 0 0 20px rgba(179, 0, 255, 0.2), inset 0 0 20px rgba(179, 0, 255, 0.05);
-    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, background 0.3s;
 }
 
-.combo-card:hover {
+.producto-card:hover {
     transform: translateY(-15px);
     border-color: var(--accent-gold);
     box-shadow: 0 20px 50px rgba(179, 0, 255, 0.3), inset 0 0 30px rgba(255, 215, 0, 0.1);
-    background: linear-gradient(135deg, rgba(26, 47, 78, 0.3) 0%, rgba(15, 24, 35, 0.3) 100%);
-}
-
-.combo-image {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    border-bottom: 3px solid var(--accent-purple);
-    background: linear-gradient(135deg, rgba(22, 33, 62, 0.3) 0%, rgba(16, 24, 35, 0.3) 100%);
-}
-
-.combo-image .product-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.combo-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    border-bottom: 2px solid var(--accent-purple);
-    padding: 20px 30px 15px 30px;
-    background: linear-gradient(135deg, rgba(22, 33, 62, 0.3) 0%, rgba(16, 24, 35, 0.3) 100%);
-}
-
-.combo-header h3 {
-    color: var(--accent-green);
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: 1px;
-}
-
-.combo-badge {
-    background: linear-gradient(135deg, var(--accent-purple), var(--accent-gold));
-    color: white;
-    padding: 5px 12px;
-    font-size: 0.75rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: 1px solid var(--accent-cyan);
-    box-shadow: 0 0 10px rgba(179, 0, 255, 0.5);
-}
-
-.combo-items {
-    margin: 25px 0;
-    padding: 0 30px;
-    background: linear-gradient(135deg, rgba(22, 33, 62, 0.2) 0%, rgba(16, 24, 35, 0.2) 100%);
-}
-
-.combo-items p {
-    color: var(--accent-cyan);
-    margin: 10px 0;
-    font-size: 0.95rem;
-}
-
-.combo-precio {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-    margin: 25px 30px;
-    background: rgba(255, 215, 0, 0.1);
-    padding: 15px;
-    border-left: 4px solid var(--accent-gold);
-}
-
-.combo-original {
-    color: var(--text-secondary);
-    text-decoration: line-through;
-    font-size: 1.1rem;
-}
-
-.combo-descuento {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--accent-green);
-    text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
-}
-
-.combo-card .comprar-btn {
-    margin: 0 30px 30px 30px;
-}
-
-/* ===========================
-   SECCIÓN OFERTAS
-   =========================== */
-
-.ofertas {
-    padding: 80px 0;
-    background: transparent;
-    border-top: 3px solid var(--accent-red);
-    margin: 0;
-}
-
-.ofertas-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.oferta-card {
-    background: linear-gradient(135deg, rgba(42, 26, 46, 0.3) 0%, rgba(26, 15, 35, 0.3) 100%);
-    border: 3px solid var(--accent-red);
-    border-radius: 0;
-    overflow: hidden;
-    transition: var(--transition);
-    position: relative;
-    box-shadow: 0 0 30px rgba(255, 23, 68, 0.3), inset 0 0 20px rgba(255, 23, 68, 0.05);
-}
-
-.oferta-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 20px 50px rgba(255, 23, 68, 0.5), inset 0 0 30px rgba(255, 215, 0, 0.1);
-    background: linear-gradient(135deg, rgba(42, 26, 46, 0.5) 0%, rgba(26, 15, 35, 0.5) 100%);
-}
-
-.oferta-badge {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
-    color: white;
-    padding: 12px 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1rem;
-    z-index: 10;
-    box-shadow: 0 0 20px rgba(255, 23, 68, 0.6);
-    letter-spacing: 1px;
-}
-
-.oferta-image {
-    width: 100%;
-    height: 250px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    position: relative;
-    overflow: hidden;
-    border-bottom: 3px solid var(--accent-red);
-}
-
-.oferta-content {
-    padding: 25px;
-    background: linear-gradient(135deg, rgba(42, 26, 46, 0.4) 0%, rgba(26, 15, 35, 0.4) 100%);
-}
-
-.oferta-content h3 {
-    color: var(--accent-gold);
-    margin-bottom: 10px;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.oferta-content p {
-    color: var(--accent-cyan);
-    margin-bottom: 20px;
-    font-style: italic;
-}
-
-.oferta-precio {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 20px;
-    background: rgba(255, 23, 68, 0.15);
-    padding: 15px;
-    border-left: 4px solid var(--accent-red);
-}
-
-.oferta-precio .original {
-    color: var(--text-secondary);
-    text-decoration: line-through;
-    font-size: 1.2rem;
-}
-
-.oferta-precio .descuento {
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: var(--accent-green);
-    text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
-}
-
-.oferta-precio .porcentaje {
-    background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
-    color: white;
-    padding: 10px 15px;
-    font-weight: bold;
-    font-size: 1rem;
-    box-shadow: 0 0 15px rgba(255, 23, 68, 0.5);
-}
-
-.btn-outline {
-    background: transparent;
-    border: 2px solid var(--accent-gold);
-    color: var(--accent-green);
-}
-
-.btn-outline:hover {
-    background: linear-gradient(135deg, var(--accent-gold), var(--accent-green));
-    color: var(--primary-dark);
-    border-color: var(--accent-green);
-}
-
-/* ===========================
-   SECCIÓN HARDWARE
-   =========================== */
-
-.hardware {
-    padding: 80px 0;
-    background: transparent;
-    border-top: 3px solid var(--accent-gold);
-    margin: 0;
-}
-
-.hardware-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-    margin-top: 50px;
-}
-
-.hardware-card {
-    background: linear-gradient(135deg, rgba(26, 47, 78, 0.3) 0%, rgba(15, 24, 35, 0.3) 100%);
-    border: 3px solid var(--accent-cyan);
-    border-radius: 0;
-    padding: 25px;
-    text-align: center;
-    transition: var(--transition);
-    position: relative;
-    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.05);
-}
-
-.hardware-card:hover {
-    transform: translateY(-15px);
-    border-color: var(--accent-gold);
-    box-shadow: 0 20px 50px rgba(0, 212, 255, 0.3), inset 0 0 30px rgba(255, 215, 0, 0.1);
     background: linear-gradient(135deg, rgba(26, 47, 78, 0.4) 0%, rgba(15, 24, 35, 0.4) 100%);
+}
+
+/* ICONO / IMAGEN */
+.producto-card img,
+.producto-card .hw-icon {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .hw-icon {
@@ -852,31 +607,79 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-.hardware-card h3 {
+/* NOMBRE */
+.producto-card h3 {
     color: var(--accent-gold);
+    font-size: 1.4rem;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     letter-spacing: 1px;
 }
 
-.hardware-card ul {
+/* LISTA / DETALLES */
+.producto-card ul,
+.producto-card .detalle-items {
     list-style: none;
+    padding: 0;
     text-align: left;
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 }
 
-.hardware-card li {
-    color: var(--accent-cyan);
-    margin: 10px 0;
-    padding-left: 25px;
+.producto-card li,
+.producto-card .detalle-items p {
     position: relative;
-    font-size: 0.95rem;
+    padding-left: 25px;
+    margin: 8px 0;
+    color: var(--accent-cyan);
+    font-size: 1rem;
 }
 
-.hardware-card li::before {
+.producto-card li::before {
     content: '⚔️';
     position: absolute;
     left: 0;
+    color: var(--accent-green);
+}
+
+/* PRECIO */
+.producto-card .precio {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--accent-green);
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+    margin-bottom: 20px;
+}
+
+/* BOTÓN */
+.producto-card .comprar-btn {
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-green));
+    border: none;
+    color: var(--primary-dark);
+    padding: 12px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.producto-card .comprar-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 255, 136, 0.4);
+    background: linear-gradient(135deg, var(--accent-green), var(--accent-purple));
+}
+
+/* LISTA DE PRECIOS (opcional: original y descuento) */
+.producto-card .precio-original {
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.producto-card .precio-descuento {
+    font-size: 2rem;
+    font-weight: bold;
     color: var(--accent-green);
 }
 
@@ -1272,6 +1075,23 @@ body {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
+.header-carrito {
+    background-color: var(--accent-green); /* color de fondo del carrito */
+    color: var(--primary-dark);            /* color del ícono o texto */
+    border: 2px solid var(--accent-green);
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header-carrito:hover {
+    background-color: #00cc6a; /* un verde más oscuro al pasar el mouse */
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     .nav-list {
@@ -1629,6 +1449,86 @@ body {
 .comprar-btn:active {
     transform: scale(0.98);
 }
+
+/* ===========================
+   TARJETAS UNIFICADAS
+   =========================== */
+.producto-card {
+    background: linear-gradient(135deg, var(--secondary-dark) 0%, rgba(26, 47, 78, 0.7) 100%);
+    border: 2px solid var(--accent-green);
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px; /* espacio vertical entre productos */
+    box-shadow: 0 8px 25px rgba(0, 255, 136, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 255, 136, 0.4);
+}
+
+/* Imagen */
+.producto-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Nombre del producto */
+.producto-card h3 {
+    font-size: 1.4rem;
+    color: var(--accent-green);
+    margin: 10px 0;
+}
+
+/* Lista de detalles o especificaciones */
+.producto-card ul,
+.producto-card .detalle-items {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.producto-card li,
+.producto-card .detalle-items p {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+/* Precio */
+.producto-card .precio {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-gold);
+    margin: 12px 0 20px 0;
+}
+
+/* Botón comprar / saquear */
+.producto-card .comprar-btn {
+    background: linear-gradient(135deg, var(--accent-purple), var(--accent-green));
+    border: none;
+    color: var(--primary-dark);
+    padding: 12px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.producto-card .comprar-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 255, 136, 0.4);
+    background: linear-gradient(135deg, var(--accent-green), var(--accent-purple));
+}
+
 
 /* ===========================
    SECCIÓN OFERTAS
