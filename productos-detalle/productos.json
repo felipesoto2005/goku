@@ -136,7 +136,7 @@
       "category": "monitores",
       "image": "../imagenes/Monitor 4K 144Hz.png",
       "price": "$899",
-      "short": "27" | 4K UHD | 144Hz | IPS | HDR 1000",
+      "short": "27\" | 4K UHD | 144Hz | IPS | HDR 1000",
       "specs": ["27\" 4K","144Hz","IPS","HDR 1000"],
       "badge": "4K UHD"
     },
@@ -146,7 +146,7 @@
       "category": "monitores",
       "image": "../imagenes/Monitor 1440p 240Hz .png",
       "price": "$594",
-      "short": "27" | 1440p | 240Hz | IPS | 1ms",
+      "short": "27\" | 1440p | 240Hz | IPS | 1ms",
       "specs": ["27\" 1440p","240Hz","IPS","1ms"],
       "badge": "-15%"
     },
@@ -156,9 +156,108 @@
       "category": "monitores",
       "image": "../imagenes/Monitor 1080p 360Hz.png",
       "price": "$449",
-      "short": "24" | 1080p | 360Hz | TN | 0.5ms",
+      "short": "24\" | 1080p | 360Hz | TN | 0.5ms",
       "specs": ["24\" 1080p","360Hz","TN","0.5ms"],
       "badge": ""
+    }
+    ,
+    {
+      "id": "ssd-nvme-1tb-gen4",
+      "title": "SSD NVMe 1TB Gen4",
+      "category": "componentes",
+      "image": "Zona-gamer/producto (15)/- SSD NVMe 1TB Gen4.jpg",
+      "price": "$89.99",
+      "short": "Hasta 7100 MB/s | PCIe Gen4 | M.2 2280",
+      "specs": ["PCIe Gen4","M.2 2280","7100 MB/s"],
+      "badge": "VELOCIDAD"
+    }
+    ,
+    {
+      "id": "controlador-rgb-9-puertos",
+      "title": "Controlador ARGB + PWM (9 puertos)",
+      "category": "componentes",
+      "image": "Zona-gamer/producto (2)/Controlador RGB para ventiladores.jpg",
+      "price": "$24.99",
+      "short": "Hub ARGB 5V 3-pin + PWM | Alimentación SATA",
+      "specs": ["9 puertos","ARGB 5V","PWM","SATA"],
+      "badge": "RGB"
+    }
+    ,
+    {
+      "id": "fuente-750w-80plus-gold",
+      "title": "Fuente 750W 80+ Gold (ATX 3.1)",
+      "category": "componentes",
+      "image": "Zona-gamer/producto/- Fuente 750W 80+ Gold.webp",
+      "price": "$129.99",
+      "short": "MSI MAG A750GL | Modular | PCIe 5.1",
+      "specs": ["750W","80+ Gold","ATX 3.1","PCIe 5.1"],
+      "badge": "GOLD"
+    }
+    ,
+    {
+      "id": "monitor-curvo-27-165hz",
+      "title": "Monitor Curvo 27\" 165Hz",
+      "category": "monitores",
+      "image": "Zona-gamer/producto (8)/- Monitor Curvo 27 165Hz.jpg",
+      "price": "$299.99",
+      "short": "27\" Curvo | 165Hz | Colores vibrantes",
+      "specs": ["27\" Curvo","165Hz"],
+      "badge": "165Hz"
+    }
+    ,
+    {
+      "id": "silla-gamer-ergonomica",
+      "title": "Silla Gamer Ergonómica",
+      "category": "perifericos",
+      "image": "Zona-gamer/producto (12)/- Silla Gamer Ergonómica.jpg",
+      "price": "$199.99",
+      "short": "Soporte lumbar | Reposacabezas | Ajustable",
+      "specs": ["Soporte lumbar","Reposacabezas","Ajustable"],
+      "badge": "CONFORT"
+    }
+    ,
+    {
+      "id": "webcam-full-hd",
+      "title": "Webcam Full HD para streaming",
+      "category": "perifericos",
+      "image": "Zona-gamer/producto (3)/- Webcam Full HD para streaming.webp",
+      "price": "$69.99",
+      "short": "1080p | Micrófono integrado | Obturador",
+      "specs": ["1080p","Micrófono","Obturador"],
+      "badge": "HD"
+    }
+    ,
+    {
+      "id": "capturadora-hd60x",
+      "title": "Capturadora HD60 X",
+      "category": "perifericos",
+      "image": "Zona-gamer/producto (4)/Capturadora de video externa.jpg",
+      "price": "$159.99",
+      "short": "1080p60 HDR10 | 4K30 | Baja latencia",
+      "specs": ["1080p60","4K30","HDR10","Baja latencia"],
+      "badge": "STREAM"
+    }
+    ,
+    {
+      "id": "mouse-gamer-12800-dpi",
+      "title": "Mouse Gamer 12,800 DPI",
+      "category": "perifericos",
+      "image": "Zona-gamer/producto (10)/- Mouse Gamer 12.000 DPI.jpg",
+      "price": "$49.99",
+      "short": "Sensor óptico | 8 botones | RGB",
+      "specs": ["12,800 DPI","RGB","8 botones"],
+      "badge": "DPI"
+    }
+    ,
+    {
+      "id": "audifonos-surround-7-1",
+      "title": "Audífonos Surround 7.1",
+      "category": "perifericos",
+      "image": "Zona-gamer/producto (11)/- Audífonos Surround 7.1.jpg",
+      "price": "$79.99",
+      "short": "Sonido envolvente | Micrófono | Confort",
+      "specs": ["7.1","Micrófono","Confort"],
+      "badge": "7.1"
     }
   ]
 }
