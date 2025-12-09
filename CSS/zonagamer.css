@@ -139,7 +139,7 @@ body {
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 6rem;
     color: #00f3ff;
     text-shadow: 0 0 20px #00f3ff;
     margin: 0;
@@ -147,15 +147,16 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: var(--accent-cyan);
     margin-top: 15px;
+    font-family: 'Cinzel', serif;
 }
 
 .rune-divider {
     width: 180px;
     height: 3px;
-    background: linear-gradient(90deg, var(--accent-purple), var(--accent-gold));
+    background: linear-gradient(90deg, var(--accent-purple), var(--accent-cyan));
     margin: 25px auto 0;
     box-shadow: 0 0 10px var(--accent-purple);
 }
@@ -166,19 +167,19 @@ body {
    ========================================================== */
 
 .filtros-section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .filtros {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
 .filtro-btn {
     background: transparent;
-    border: 2px solid var(--accent-purple);
+    border: 2px solid var(--accent-cyan);
     padding: 10px 18px;
     color: var(--accent-cyan);
     font-weight: bold;
@@ -189,7 +190,7 @@ body {
 
 .filtro-btn.active,
 .filtro-btn:hover {
-    background: var(--accent-purple);
+    background: rgb(1, 107, 126);
     color: white;
     box-shadow: 0 0 12px var(--accent-purple);
 }
@@ -206,8 +207,8 @@ body {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color: var(--accent-green);
-    text-shadow: 0 0 12px var(--accent-green);
+    color:#00eaff;
+    text-shadow: 0 0 12px var(--accent-cyan)
 }
 
 .section-subtitle {
@@ -243,8 +244,8 @@ body {
 
 .producto-card:hover {
     transform: translateY(-10px);
-    border-color: var(--accent-gold);
-    box-shadow: 0 0 25px rgba(255,215,0,0.6);
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 25px rgba(0, 247, 255, 0.6);
 }
 
 .producto-image {
