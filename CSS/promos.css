@@ -1,0 +1,124 @@
+/* ===========================
+   SECCIÓN OFERTAS
+   =========================== */
+
+.ofertas {
+    padding: 80px 0;
+    background: transparent;
+    border-top: 3px solid var(--accent-red);
+    margin: 0;
+}
+
+.ofertas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.oferta-card {
+    background: linear-gradient(135deg, rgba(42, 26, 46, 0.3) 0%, rgba(26, 15, 35, 0.3) 100%);
+    border: 3px solid var(--accent-red);
+    border-radius: 0;
+    overflow: hidden;
+    transition: var(--transition);
+    position: relative;
+    box-shadow: 0 0 30px rgba(255, 23, 68, 0.3), inset 0 0 20px rgba(255, 23, 68, 0.05);
+}
+
+.oferta-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 50px rgba(255, 23, 68, 0.5), inset 0 0 30px rgba(255, 215, 0, 0.1);
+    background: linear-gradient(135deg, rgba(42, 26, 46, 0.5) 0%, rgba(26, 15, 35, 0.5) 100%);
+}
+
+.oferta-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
+    color: white;
+    padding: 12px 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(255, 23, 68, 0.6);
+    letter-spacing: 1px;
+}
+
+.oferta-image {
+    width: 100%;
+    height: 250px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid var(--accent-red);
+}
+
+.oferta-content {
+    padding: 25px;
+    background: linear-gradient(135deg, rgba(42, 26, 46, 0.4) 0%, rgba(26, 15, 35, 0.4) 100%);
+}
+
+.oferta-content h3 {
+    color: var(--accent-gold);
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.oferta-content p {
+    color: var(--accent-cyan);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.oferta-precio {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    background: rgba(255, 23, 68, 0.15);
+    padding: 15px;
+    border-left: 4px solid var(--accent-red);
+}
+
+.oferta-precio .original {
+    color: var(--text-secondary);
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
+
+.oferta-precio .descuento {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--accent-green);
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+}
+
+.oferta-precio .porcentaje {
+    background: linear-gradient(135deg, var(--accent-red), var(--accent-gold));
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 0 15px rgba(255, 23, 68, 0.5);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid var(--accent-gold);
+    color: var(--accent-green);
+}
+
+.btn-outline:hover {
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-green));
+    color: var(--primary-dark);
+    border-color: var(--accent-green);
+}
+

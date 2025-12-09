@@ -174,7 +174,7 @@ body {
 }
 
 /* ===========================
-   HERO ADAPTADO A TU HTML
+   HERO ADAPTADO 
    =========================== */
 
 .hero-content {
@@ -185,8 +185,8 @@ body {
     margin: 0 2rem;
     z-index: 5;
 
-    /* mover un poco a la izquierda */
-    transform: translateX(-80px); /* antes eran -40px o margin-left -80 */
+  
+    transform: translateX(-80px); 
 }
 
 /* Título */

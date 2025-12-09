@@ -1,0 +1,69 @@
+/* ===========================
+   SECCIÓN HARDWARE
+   =========================== */
+
+.hardware {
+    padding: 80px 0;
+    background: transparent;
+    border-top: 3px solid var(--accent-gold);
+    margin: 0;
+}
+
+.hardware-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.hardware-card {
+    background: linear-gradient(135deg, rgba(26, 47, 78, 0.3) 0%, rgba(15, 24, 35, 0.3) 100%);
+    border: 3px solid var(--accent-cyan);
+    border-radius: 0;
+    padding: 25px;
+    text-align: center;
+    transition: var(--transition);
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.2), inset 0 0 20px rgba(0, 212, 255, 0.05);
+}
+
+.hardware-card:hover {
+    transform: translateY(-15px);
+    border-color: var(--accent-gold);
+    box-shadow: 0 20px 50px rgba(0, 212, 255, 0.3), inset 0 0 30px rgba(255, 215, 0, 0.1);
+    background: linear-gradient(135deg, rgba(26, 47, 78, 0.4) 0%, rgba(15, 24, 35, 0.4) 100%);
+}
+
+.hw-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.hardware-card h3 {
+    color: var(--accent-gold);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.hardware-card ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hardware-card li {
+    color: var(--accent-cyan);
+    margin: 10px 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.95rem;
+}
+
+.hardware-card li::before {
+    content: '⚔️';
+    position: absolute;
+    left: 0;
+    color: var(--accent-green);
+}
