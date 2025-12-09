@@ -25,10 +25,9 @@ body {
     scroll-behavior: smooth;
 }
 
-/* ==========================================================
+/* ===========================
    HEADER / NAVEGACIÓN
-   ========================================================== */
-
+   =========================== */
 .header {
     background: linear-gradient(135deg, rgba(10, 14, 39, 0.8) 0%, rgba(22, 33, 62, 0.8) 100%);
     padding: 1rem 0;
@@ -41,8 +40,10 @@ body {
 
 .header .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* centra todo horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    gap: 50px;               /* espacio entre logo y nav */
+    flex-wrap: wrap;          /* que se acomode en pantallas pequeñas */
 }
 
 .logo {
@@ -77,7 +78,7 @@ body {
 }
 
 .nav-link {
-    color: var(--text-primary);
+    color: var(--text-light);
     text-decoration: none;
     font-weight: 600;
     position: relative;
@@ -111,6 +112,9 @@ body {
     width: 100%;
 }
 
+/* ===========================
+   HAMBURGER PARA MOVILES
+   =========================== */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -125,6 +129,16 @@ body {
     border-radius: 2px;
     transition: var(--transition);
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
 }
 
 /* ==========================================================
@@ -219,13 +233,16 @@ body {
     text-align: center;
     font-size: 2.5rem;
     color: #00eaff;
-    text-shadow: 0 0 12px var(--accent-cyan);
+    text-shadow: 0 0 12px var(--accent-cyan) !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .section-subtitle {
     text-align: center;
-    color: var(--text-secondary);
+    color: #00eaff;
+    font-size: 1.2rem;
     margin-top: 10px;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 /* PRODUCTO TARJETAS */
@@ -348,21 +365,29 @@ body {
     color: black;
 }
 
-/* ==========================================================
+/* ==========================
    FOOTER
-   ========================================================== */
-
+   ========================== */
+   
 .footer {
     background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
     border-top: 2px solid var(--accent-purple);
     padding: 50px 0 20px;
     margin-top: 80px;
+    text-align: center; /* centra todo el contenido */
+}
+
+.footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
+    justify-items: center; /* centra cada sección horizontalmente */
     margin-bottom: 40px;
 }
 
@@ -379,15 +404,36 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
+    justify-content: center; /* centra los íconos y texto */
 }
 
 .footer-section p i {
     color: var(--accent-cyan);
 }
 
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: var(--accent-green);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-section ul li a:hover {
+    color: var(--accent-cyan);
+}
+
 .social-links {
     display: flex;
     gap: 15px;
+    justify-content: center; /* centra los iconos sociales */
 }
 
 .social-link {
@@ -411,10 +457,27 @@ body {
 }
 
 .footer-bottom {
-    border-top: 1px solid var(--border-color);
+    border-top: 1px solid var(--accent-green);
     padding-top: 20px;
     text-align: center;
     color: var(--text-secondary);
+    justify-content: center;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
 }
 
 /* ==========================================================
