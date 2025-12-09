@@ -319,5 +319,17 @@
     {"id":"dock-ugreen","title":"Dock UGREEN Thunderbolt 4","category":"perifericos","image":"Zona-creativa/producto (14)/- Hub Thunderbolt para periféricos.webp","price":"$199.99","short":"8 en 1, 40Gbps, Dual 4K/Single 8K, Carga 85W","specs":["8 en 1","40Gbps","85W"],"badge":""}
     ,
     {"id":"silla-felixking","title":"Silla Ergonómica FelixKing","category":"estudio","image":"Zona-creativa/producto (15)/- Silla ergonómica tipo estudio.jpg","price":"$129.99","short":"Soporte lumbar, Malla transpirable, Ajustable","specs":["Lumbar","Malla","Ajustable"],"badge":""}
+    ,
+    {"id":"combo-1","title":"Combo 1 - Setup Dell + periféricos","category":"combos","image":"combos/combo1/combo1.jpg","price":"$799.99","short":"Dell i7, GT 1030, 16GB RAM, 512GB SSD, Monitor 24\"","specs":["Intel Core i7","GeForce GT 1030 2GB","16GB RAM","512GB SSD","Monitor 24\""],"badge":"PACK"}
+    ,
+    {"id":"combo-2","title":"Combo 2 - Inicio completo","category":"combos","image":"combos/combo2/como2.webp","price":"$599.99","short":"Incluye PC, monitor y periféricos listos para jugar","specs":["PC","Monitor","Periféricos"],"badge":"PACK"}
+    ,
+    {"id":"combo-3","title":"Combo 3 - RX 580 + i7","category":"combos","image":"combos/combo3/como3.webp","price":"$699.99","short":"i7 hasta 3.9GHz, RX 580 8GB, 16GB RAM, 512GB SSD","specs":["Intel Core i7","Radeon RX 580 8GB","16GB RAM","512GB SSD","WiFi 6"],"badge":"PACK"}
+    ,
+    {"id":"combo-4","title":"Combo 4 - RTX 3050 + i7","category":"combos","image":"combos/combo4/como4.jpg","price":"$899.99","short":"i7 8ª gen 4.1GHz, RTX 3050 6GB, 16GB, 512GB SSD","specs":["Intel Core i7 8ª gen","RTX 3050 6GB","16GB DDR4","512GB SSD","WiFi 6"],"badge":"PACK"}
+    ,
+    {"id":"combo-5","title":"Combo 5 - Pack periféricos + setup","category":"combos","image":"combos/combo5/combo5.jpg","price":"$329.99","short":"Pack recomendado para comenzar sin complicaciones","specs":["Teclado","Mouse","Auriculares"],"badge":"PACK"}
+    ,
+    {"id":"combo-6","title":"Combo 6 - Teclado + mouse","category":"combos","image":"combos/como6/como6.jpg","price":"$39.99","short":"Teclado silencioso con efecto mecánico + mouse 3200 DPI","specs":["Teclado RGB","Anti-ghosting","Mouse 3200 DPI"],"badge":"PACK"}
   ]
 }
