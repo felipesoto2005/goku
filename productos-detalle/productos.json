@@ -259,5 +259,35 @@
       "specs": ["7.1","Micrófono","Confort"],
       "badge": "7.1"
     }
+    ,
+    {"id":"monitor-philips-22","title":"Monitor Philips 22\" Full HD","category":"monitores","image":"zona-estudiantil/producto (10)/- Monitor 22Full HD.jpg","price":"$89.99","short":"1920x1080, 100Hz, HDMI/VGA, LowBlue Mode","specs":["1920x1080","100Hz","HDMI/VGA","LowBlue"],"badge":""}
+    ,
+    {"id":"teclado-inalambrico","title":"Teclado Inalámbrico Silencioso","category":"perifericos","image":"zona-estudiantil/producto (11)/Teclado silencioso USB.jpg","price":"$29.99","short":"USB 2.4G, Tamaño completo, Compatible Windows/Mac","specs":["USB 2.4G","Completo","Windows/Mac"],"badge":""}
+    ,
+    {"id":"hub-usb-acer","title":"Hub USB Acer 4 Puertos","category":"perifericos","image":"zona-estudiantil/producto (12)/- Hub USB 4 puertos.jpg","price":"$15.99","short":"USB 3.0, Divisor USB-A, Alimentación USB-C","specs":["USB 3.0","USB-A","USB-C"],"badge":""}
+    ,
+    {"id":"base-refrigerante","title":"Base Refrigerante Kootek","category":"perifericos","image":"zona-estudiantil/producto (13)/- Base refrigerante para laptop.webp","price":"$24.99","short":"5 Ventiladores, LED, 2 USB, Ajustable 12\"-17\"","specs":["5 Ventiladores","LED","2 USB","12-17\""],"badge":""}
+    ,
+    {"id":"webcam-logitech","title":"Webcam Logitech Brio 101","category":"perifericos","image":"zona-estudiantil/producto (14)/- Webcam HD para clases virtuales.webp","price":"$39.99","short":"Full HD 1080p, Micrófono integrado, Obturador privacidad","specs":["1080p","Micrófono","Obturador"],"badge":""}
+    ,
+    {"id":"extensor-wifi","title":"Extensor WiFi TP-Link AC1200","category":"perifericos","image":"zona-estudiantil/producto (15)/Extensor WiFi para dormitorios.jpg","price":"$34.99","short":"Dual Band, 1.2Gbps, Cobertura amplia","specs":["Dual Band","1.2Gbps","Cobertura"],"badge":""}
+    ,
+    {"id":"laptop-hp-ryzen5","title":"Laptop HP 15.6\" Ryzen 5","category":"computadoras","image":"zona-estudiantil/producto (2)/- Laptop AMD Ryzen 5 8GB RAM.jpg","price":"$459.99","short":"Ryzen 5 7520U, 8GB RAM, 512GB SSD, Win 11","specs":["Ryzen 5 7520U","8GB RAM","512GB SSD","Win 11"],"badge":""}
+    ,
+    {"id":"ups-apc","title":"UPS APC 425VA","category":"perifericos","image":"zona-estudiantil/producto (3)/UPS básico para protección eléctrica.webp","price":"$59.99","short":"Respaldo de batería y protección contra sobrecargas","specs":["425VA","Protección","Respaldo"],"badge":""}
+    ,
+    {"id":"lenovo-chromebook","title":"Lenovo Chromebook 14\"","category":"computadoras","image":"zona-estudiantil/producto (4)/Chromebook 14 para navegación.jpg","price":"$249.99","short":"MediaTek Kompanio 520, 4GB RAM, 64GB eMMC, Chrome OS","specs":["Kompanio 520","4GB RAM","64GB eMMC","Chrome OS"],"badge":""}
+    ,
+    {"id":"lenovo-ideapad","title":"Lenovo IdeaPad Flex 5i","category":"computadoras","image":"zona-estudiantil/producto (5)/Laptop con pantalla táctil 2-en-1.jpg","price":"$549.99","short":"14\" FHD+ Táctil, i3-1215U, 8GB RAM, 1TB SSD, 2-en-1","specs":["14\" FHD+","i3-1215U","8GB RAM","1TB SSD"],"badge":""}
+    ,
+    {"id":"mouse-logitech","title":"Mouse Logitech M196","category":"perifericos","image":"zona-estudiantil/producto (6)/Mouse inalámbrico compacto.webp","price":"$19.99","short":"Bluetooth, Compacto, Batería 12 meses","specs":["Bluetooth","Compacto","12 meses"],"badge":""}
+    ,
+    {"id":"mochila-lenovo","title":"Mochila Lenovo B210","category":"perifericos","image":"zona-estudiantil/producto (7)/Mochila para laptop 15.6.webp","price":"$19.99","short":"Para laptop 15.6\", Repelente al agua, Diseño ligero","specs":["15.6\"","Repelente","Ligera"],"badge":""}
+    ,
+    {"id":"audifonos-logitech","title":"Audífonos Logitech H111","category":"perifericos","image":"zona-estudiantil/producto (8)/Audífonos con micrófono integrado.webp","price":"$14.99","short":"Estéreo, Micrófono giratorio, Conector 3.5mm","specs":["Estéreo","Micrófono","3.5mm"],"badge":""}
+    ,
+    {"id":"impresora-hp","title":"Impresora HP DeskJet 2827e","category":"perifericos","image":"zona-estudiantil/producto (9)/- Impresora multifuncional económica.jpg","price":"$69.99","short":"Multifuncional, WiFi, Inyección de tinta","specs":["Multifunción","WiFi","Tinta"],"badge":""}
+    ,
+    {"id":"laptop-hp-i3","title":"Laptop HP 15.6\" Intel i3","category":"computadoras","image":"zona-estudiantil/producto/- Laptop Intel i3 8GB RAM 256GB SSD.webp","price":"$379.99","short":"i3-1215U, 8GB RAM, 256GB SSD, Win 11","specs":["i3-1215U","8GB RAM","256GB SSD","Win 11"],"badge":""}
   ]
 }
