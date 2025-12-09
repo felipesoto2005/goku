@@ -1,72 +1,718 @@
 {
   "items": [
-    {"id":"cpu-i3-12100f","title":"Intel Core i3-12100F","category":"procesadores","image":"Zona-Hardware/cpu/producto/Intel Core i3-12100F.jpg","desc":"Intel Procesador de escritorio Core 12ª generación i3-12100F, con soporte PCIe Gen 5.0 y 4.0, soporte DDR5 y DDR4. Se requieren gráficos discretos."},
-    {"id":"cpu-i5-12400","title":"Intel Core i5-12400","category":"procesadores","image":"Zona-Hardware/cpu/producto (2)/Intel Procesador de escritorio Core i5-12400 caché de 18 M, hasta 4,40 GHz.jpg","desc":"Intel Procesador de escritorio Core i5-12400 caché de 18 M, hasta 4,40 GHz"},
-    {"id":"cpu-i7-13700k","title":"Intel Core i7-13700K","category":"procesadores","image":"Zona-Hardware/cpu/producto (3)/Intel Core i7-13700K.jpg","desc":"Intel Core i7-13700KF Gaming Desktop Processor 16 núcleos (8 núcleos P + 8 núcleos E) - Desbloqueado"},
-    {"id":"cpu-i9-13900k","title":"Intel Core i9-13900K","category":"procesadores","image":"Zona-Hardware/cpu/producto (4)/Intel Core i9-13900K.webp","desc":"Intel Core i9-13900K Procesador de escritorio 24 núcleos (8 núcleos P + 16 núcleos E) Caché de 36 M, hasta 5.8 GHz"},
-    {"id":"cpu-ryzen5-5600","title":"AMD Ryzen 5 5600","category":"procesadores","image":"Zona-Hardware/cpu/producto (5)/AMD Ryzen 5 5600.webp","desc":"AMD Ryzen 5 5500 Procesador de escritorio desbloqueado de 6 núcleos y 12 hilos con enfriador Wraith Stealth"},
-    {"id":"cpu-ryzen7-5800x","title":"AMD Ryzen 7 5800X","category":"procesadores","image":"Zona-Hardware/cpu/producto (6)/AMD Ryzen 7 5800X.webp","desc":"AMD Procesador de escritorio desbloqueado Ryzen 7 5800XT de 8 núcleos y 16 hilos"},
-    {"id":"cpu-ryzen9-7950x","title":"AMD Ryzen 9 7950X","category":"procesadores","image":"Zona-Hardware/cpu/producto (7)/AMD Ryzen 9 7950X.webp","desc":"AMD Procesador de escritorio desbloqueado Ryzen 9 7950X de 16 núcleos y 32 hilos"},
-    {"id":"cpu-ryzen5-7600","title":"AMD Ryzen 5 7600","category":"procesadores","image":"Zona-Hardware/cpu/producto (8)/AMD Ryzen 5 7600.jpg","desc":"AMD Procesador de escritorio desbloqueado Ryzen 5 7600X de 6 núcleos y 12 hilos"},
-    {"id":"cpu-ryzen7-7700x","title":"AMD Ryzen 7 7700X","category":"procesadores","image":"Zona-Hardware/cpu/producto (9)/- AMD Ryzen 7 7700X.webp","desc":"AMD Ryzen 7 7700X - Procesador de escritorio desbloqueado de 8 núcleos y 16 hilos"},
-    {"id":"cpu-threadripper-5975wx","title":"AMD Threadripper PRO 5975WX","category":"procesadores","image":"Zona-Hardware/cpu/producto (10)/- AMD Threadripper PRO 5975WX.jpg","desc":"AMD Ryzen Threadripper PRO 9955WX - Ryzen Threadripper PRO Shimada Peak 16-Core"},
-
-    {"id":"gpu-gtx-1660s","title":"GeForce GTX 1660 Super","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta/NVIDIA GeForce GTX 1660 Super.jpg","desc":"MSI Gaming Tarjeta gráfica GeForce GTX 1660 Super 192-bit HDMI/DP 6GB GDRR6 Soporte HDCP DirectX 12 Doble Ventilador VR Ready OC (GTX 1660 Super VENTUS XS OC)"},
-    {"id":"gpu-rtx-3050","title":"GeForce RTX 3050 6GB","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (2)/NVIDIA GeForce RTX 3050.jpg","desc":"ASUS Tarjeta gráfica dual NVIDIA GeForce RTX 3050 6GB OC Edition Gaming - PCIe 4.0, GDDR6, HDMI 2.1, DP 1.4a"},
-    {"id":"gpu-rtx-3060","title":"GeForce RTX 3060 12GB","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (3)/NVIDIA GeForce RTX 3060 Ti.webp","desc":"MSI GeForce RTX 3060 12GB GDDR6 192-bit HDMI/DP PCIe 4 Twin Fan Ampere OC"},
-    {"id":"gpu-rtx-3070","title":"GeForce RTX 3070","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (4)/NVIDIA GeForce RTX 3070.webp","desc":"GIGABYTE GeForce RTX 3070 Gaming OC 8G, 3 vent. WINDFORCE, 8GB 256-bit GDDR6"},
-    {"id":"gpu-rtx-3080","title":"GeForce RTX 3080 10GB","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (5)/NVIDIA GeForce RTX 3080.jpg","desc":"Dell NVIDIA GeForce RTX 3080 10GB GDDR6X 320-bit 19Gbps PCIe 4.0 x16 (renovada)"},
-    {"id":"gpu-rtx-4090","title":"GeForce RTX 4090","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (6)/NVIDIA GeForce RTX 4090.jpg","desc":"NVIDIA - Tarjeta gráfica GeForce RTX 4080 16GB GDDR6X"},
-    {"id":"gpu-rx-7600","title":"Radeon RX 7600","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (7)/Radeon RX 7600.jpg","desc":"XFX Speedster SWFT210 Radeon RX 7600 - 8GB GDDR6, 3xDP+HDMI, RDNA 3"},
-    {"id":"gpu-rx-6800xt","title":"Radeon RX 6800 XT","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (8)/AMD Radeon RX 6800 XT.jpg","desc":"XFX Speedster SWFT319 AMD Radeon RX 6800 - 16GB GDDR6, RDNA 2"},
-    {"id":"gpu-rx-9060xt","title":"Radeon RX 9060 XT","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (9)/9060 XT OC Triple Fan Gaming Edition.jpg","desc":"XFX Swift AMD Radeon RX 9060 XT OC Triple Fan, 16GB GDDR6, HDMI 2xDP"},
-    {"id":"gpu-rx-7800xt","title":"Radeon RX 7800 XT","category":"tarjetas-graficas","image":"Zona-Hardware/gpu/Nueva carpeta (10)/Challenger Radeon RX 7800 X.jpg","desc":"ASRock Challenger Radeon RX 7800 XT OC 16GB GDDR6"},
-
-    {"id":"mon-sceptre-34","title":"Sceptre C345B-QUT168 34\"","category":"monitores","image":"Zona-Hardware/monitores/monitores/Sceptre C345B-QUT168 Monitor.jpg","desc":"WQHD ultraancho, curvo 1500R, 3440x1440, hasta 165Hz, 99% sRGB, 1ms"},
-    {"id":"mon-samsung-g93sc","title":"Samsung Odyssey OLED G93SC 49\"","category":"monitores","image":"Zona-Hardware/monitores/monitores (2)/Samsung Odyssey OLED (G93SC.jpg","desc":"QD-OLED 49\", 240Hz, 0.03ms, DQHD, G-Sync compatible, FreeSync Premium Pro"},
-    {"id":"mon-lg-27gs60qc","title":"LG 27GS60QC-B 27\"","category":"monitores","image":"Zona-Hardware/monitores/monitores (3)/LG 27GS60QC-B Ultragear Monitor.jpg","desc":"Curvo QHD 2560x1440, 180Hz, 1ms, 1000R, FreeSync, HDR10, HDMIx2, DP"},
-    {"id":"mon-koorui-24","title":"KOORUI 24\" 165Hz","category":"monitores","image":"Zona-Hardware/monitores/monitores (4)/KOORUI --.jpg","desc":"IPS rápido FHD 165Hz, 1ms, sRGB 99%, Adaptive Sync, VESA, HDMI, DP"},
-
-    {"id":"alm-kingston-nv3-500","title":"Kingston NV3 500GB NVMe","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta/- SSD Kingston A2000 NVMe 500GB.webp","desc":"Kingston NV3 500GB M.2 2280 NVMe PCIe 4.0 Gen4x4 hasta 5000 MB/s"},
-    {"id":"alm-samsung-990evo-1tb","title":"Samsung 990 EVO 1TB","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (2)/- SSD Samsung 970 EVO Plus 1TB.webp","desc":"SAMSUNG 990 EVO 1TB, PCIe Gen 4x4 y 5x2 M.2 2280 NVMe, hasta 5000 MB/s"},
-    {"id":"alm-crucial-bx500-1tb","title":"Crucial BX500 1TB","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (3)/- SSD Crucial MX500 1TB SATA.jpg","desc":"Crucial BX500 1TB SATA 2.5\" SSD interno, hasta 540MB/s"},
-    {"id":"alm-wd-sn850x-2tb","title":"WD Black SN850X 2TB","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (4)/SSD WD Black SN850X 2TB NVMe.jpg","desc":"WD_BLACK SN850X NVMe 2TB Gen4 PCIe, M.2 2280, hasta 7,300 MB/s"},
-    {"id":"alm-samsung-870evo","title":"Samsung 870 EVO 2.5\"","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (5)/SAMSUNG 870 EVO 2.5 pulgadas SATA III SSD interno.jpg","desc":"SAMSUNG 870 EVO 2.5\" SATA III SSD interno"},
-    {"id":"alm-wd-green-480","title":"WD Green 480GB 2.5\"","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (6)/Western Digital WDS480G3G0A - Unidad de estado sólido SSD.jpg","desc":"WD Green 480GB 2.5\" SATA III 6Gb/s, hasta 545MB/s"},
-    {"id":"alm-kingston-ssd","title":"Kingston SSD","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (7)/Kingston SSD.jpg","desc":"Kingston SSD - HDD interno de repuesto para aumentar el rendimiento"},
-    {"id":"alm-wd-sn3000-500","title":"WD SN3000 500GB","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (8)/Western Digital SSD interno WD SN3000 NVMe verde de 500 GB.jpg","desc":"WD SN3000 NVMe 500GB Gen4 PCIe, M.2 2280, hasta 5,000 MB/s"},
-    {"id":"alm-samsung-t9-1tb","title":"Samsung T9 1TB (externo)","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (9)/SAMSUNG T9 SSD.jpg","desc":"SAMSUNG T9 SSD portátil 1TB, USB 3.2 Gen 2x2, hasta 2,000 MB/s"},
-    {"id":"alm-lexar-ns100-512","title":"Lexar NS100 512GB","category":"almacenamiento","image":"Zona-Hardware/almacenamiento/Nueva carpeta (10)/Lexar NS100 512 GB.jpg","desc":"Lexar NS100 512GB SATA III 2.5\" SSD, hasta 550 MB/s"},
-
-    {"id":"ram-corsair-8gb-ddr4","title":"Corsair Vengeance LPX 8GB DDR4","category":"memoria","image":"Zona-Hardware/ram/Nueva carpeta/Corsair Vengeance LPX 8GB (1 x 8GB).jpg","desc":"Corsair Vengeance LPX 8GB (1x8GB) DDR4 2400MHz C16 (PC4-19200) - Negro"},
-
-    {"id":"per-dierya-t68se","title":"DIERYA T68SE (60%)","category":"perifericos","image":"Zona-Hardware/perifericos/periferico/DIERYA T68SE.jpg","desc":"Teclado mecánico 60% con switches rojos, anti-ghosting, cableado. US$27.98"},
-    {"id":"per-redragon-m719","title":"Redragon M719 Antonium","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (11)/Redragon M719 Antonium RGB.jpg","desc":"Mouse gaming 10,000 DPI, 8 botones programables, 8 modos RGB"},
-    {"id":"per-steelseries-prime","title":"SteelSeries Prime","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (12)/SteelSeries Prime mouse para videojuegos.jpg","desc":"Mouse FPS 18,000 CPI, TrueMove Pro, 5 botones, switches ópticos"},
-    {"id":"per-logi-prox-superlight2","title":"Logitech G PRO X SUPERLIGHT 2","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (13)/Logitech G PRO X SUPERLIGHT 2 Lightspeed.jpg","desc":"Mouse inalámbrico, sondeo 8k, LIGHTFORCE, HERO 2, 44,000 DPI"},
-    {"id":"per-logi-g203","title":"Logitech G203 RGB","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (14)/Logitech G203 RGB.jpg","desc":"Mouse cableado para videojuegos con iluminación RGB"},
-    {"id":"per-steelseries-nova1","title":"SteelSeries Arctis Nova 1","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (16)/SteelSeries Arctis Nova 1.jpg","desc":"Auriculares multisistema, audio espacial 360°, ultraligeros"},
-    {"id":"per-hyperx-cloud3","title":"HyperX Cloud III","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (17)/HyperX Cloud III.jpg","desc":"Headset cableado, drivers 53mm, DTS, mic 10mm, USB-C/A, 3.5mm"},
-    {"id":"per-razer-kraken-v3x","title":"Razer Kraken V3 X","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (18)/Razer Kraken V3 X Auriculares USB.jpg","desc":"Headset USB, drivers 40mm TriForce, mic cardioide HyperClear, 7.1"},
-    {"id":"per-razer-basilisk-v3","title":"Razer Basilisk V3","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (19)/Razer Basilisk V3.jpg","desc":"Mouse ergonómico, 26K DPI, 11 botones, HyperScroll, Chroma RGB"},
-    {"id":"per-razer-deathadder","title":"Razer DeathAdder Essential","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (20)/Mouse para juegos Razer DeathAdder.jpg","desc":"Sensor 6400 DPI, 5 botones programables, agarres laterales de goma"},
-    {"id":"per-bladehawks-rgb","title":"BladeHawks Alfombrilla RGB XL","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (21)/BladeHawks Alfombrilla.jpg","desc":"Alfombrilla XL con 14 modos luz, base antideslizante (31.5 x 12 in)"},
-    {"id":"per-acegamer-aurora2","title":"AceGamer Aurora II 2.4G","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (22)/AceGamer Aurora II 2.4G.jpg","desc":"Controlador Bluetooth/2.4G para PC/Android/Switch/Steam Deck"},
-    {"id":"per-sama-gx50","title":"SAMA GX50 Cool","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (23)/SAMA Teclado con cable GX50 Cool.jpg","desc":"Teclado mecánico con retroiluminación LED arco iris, 104 teclas"},
-    {"id":"per-teclado-60","title":"Teclado mecánico 60%","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (24)/teclado.jpg","desc":"Teclado 60% retroiluminado RGB con teclas PBT. US$32.99"},
-    {"id":"per-blackshark-v2x","title":"Razer BlackShark V2 X","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (25)/Razer BlackShark V2 X Auriculares.jpg","desc":"Headset 7.1, drivers 50mm, espuma viscoelástica, 3.5mm"},
-    {"id":"per-mousepad-bnw","title":"Alfombrilla XL B/N","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (26)/mauspad.webp","desc":"Alfombrilla XL blanco/negro con bordes cosidos (31.5 x 15.8 in)"},
-    {"id":"per-mousepad-rgb","title":"Alfombrilla RGB LED XL","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (27)/mauspadd.webp","desc":"Alfombrilla de ratón RGB LED de gran tamaño"},
-    {"id":"per-mousepad-kanagawa","title":"Alfombrilla Kanagawa XL","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (28)/Kanagawa - Alfombrilla de.jpg","desc":"Alfombrilla japonesa, base antideslizante, impermeable (31.5 x 11.8 in)"},
-    {"id":"per-razer-gigantus","title":"Razer Gigantus V2 XXL","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (29)/Razer Gigantus.jpg","desc":"Alfombrilla texturizada microtejida, goma alta densidad, antideslizante"},
-    {"id":"per-steelseries-qck-xl","title":"SteelSeries QcK XL","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (30)/SteelSeries QcK XL.jpg","desc":"Alfombrilla de rendimiento, deslizamiento suave, base neopreno"},
-    {"id":"per-razer-orochi-v2","title":"Razer Orochi V2","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (31)/Razer Orochi V2.jpg","desc":"Mouse inalámbrico ultraligero, 2 modos, hasta 950h, 18K DPI"},
-    {"id":"per-asus-rog-harpe-ace","title":"ASUS ROG Harpe Ace","category":"perifericos","image":"Zona-Hardware/perifericos/periferico (32)/ASUS ROG.jpg","desc":"Mouse eSports trimodo, 36K DPI, 90h batería, PC/Mac"},
-
-    {"id":"case-ruix-ov502","title":"RUIX OV502 M-ATX","category":"gabinetes","image":"Zona-Hardware/Gabinetes/gabinete/RUIX OV502 M-ATX - Carcasa para PC de minitorre.jpg","desc":"Mini torre con 3 ventiladores Prism ARGB PWM, vidrio templado 180°, USB 3.0. US$59.99"},
-
-    {"id":"psu-gamemax-gx1050","title":"GAMEMAX Rampage GX1050","category":"fuentes","image":"Zona-Hardware/fuente-de-poder/carpeta sin título/GAMEMAX Rampage Series - Fuente de alimentación.jpg","desc":"Fuente totalmente modular, 80 Plus Platinum, ATX 3.1/PCIe 5.1, FDB fan, tapas japonesas. US$89.99"},
-
-    {"id":"mb-asus-b550-plus","title":"ASUS Prime B550-PLUS","category":"motherboard","image":"Zona-Hardware/motherboard/Nueva carpeta/- ASUS Prime B550M-A.jpg","desc":"ASUS Prime B550-PLUS AC-HES AMD AM4 ATX, Dual M.2, PCIe 4.0, WiFi5, 1GbE, USB-C"}
+    {
+      "id": "procesadores-intel-procesador-de-escritorio-core-i5-12400-cache-de-18-m-h",
+      "title": "Intel Procesador de escritorio Core i5-12400 caché de 18 M, hasta 4,40 GHz",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (2)/Intel Procesador de escritorio Core i5-12400 caché de 18 M, hasta 4,40 GHz.jpg",
+      "desc": "Intel Procesador de escritorio Core i5-12400 caché de 18 M, hasta 4,40 GHz"
+    },
+    {
+      "id": "procesadores-amd-ryzen-5-7600",
+      "title": "AMD Ryzen 5 7600",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (8)/AMD Ryzen 5 7600.jpg",
+      "desc": "AMD Procesador de escritorio desbloqueado Ryzen 5 7600X de 6 núcleos y 12 hilos"
+    },
+    {
+      "id": "procesadores-intel-core-i3-12100f",
+      "title": "- Intel Core i3-12100F",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto/- Intel Core i3-12100F.jpg",
+      "desc": "Intel Procesador de escritorio Core 12ª generación i3-12100F, con soporte PCIe Gen 5.0 y 4.0, soporte DDR5 y DDR4. Se requieren gráficos discretos."
+    },
+    {
+      "id": "procesadores-amd-ryzen-5-5600",
+      "title": "AMD Ryzen 5 5600",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (5)/AMD Ryzen 5 5600.webp",
+      "desc": "AMD Ryzen 5 5500 Procesador de escritorio desbloqueado de 6 núcleos y 12 hilos con enfriador Wraith Stealth"
+    },
+    {
+      "id": "procesadores-amd-ryzen-7-5800x",
+      "title": "AMD Ryzen 7 5800X",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (6)/AMD Ryzen 7 5800X.webp",
+      "desc": "AMD Procesador de escritorio desbloqueado Ryzen 7 5800XT de 8 núcleos y 16 hilos"
+    },
+    {
+      "id": "procesadores-amd-threadripper-pro-5975wx",
+      "title": "- AMD Threadripper PRO 5975WX",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (10)/- AMD Threadripper PRO 5975WX.jpg",
+      "desc": "AMD Ryzen Threadripper PRO 9955WX - Ryzen Threadripper PRO Shimada Peak 16-Core"
+    },
+    {
+      "id": "procesadores-amd-ryzen-9-7950x",
+      "title": "AMD Ryzen 9 7950X",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (7)/AMD Ryzen 9 7950X.webp",
+      "desc": "AMD Procesador de escritorio desbloqueado Ryzen 9 7950X de 16 núcleos y 32 hilos"
+    },
+    {
+      "id": "procesadores-intel-core-i9-13900k",
+      "title": "Intel Core i9-13900K",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (4)/Intel Core i9-13900K.webp",
+      "desc": "Intel Core i9-13900K Procesador de escritorio 24 núcleos (8 núcleos P + 16 núcleos E) Caché de 36 M, hasta 5.8 GHz"
+    },
+    {
+      "id": "procesadores-intel-core-i7-13700k",
+      "title": "Intel Core i7-13700K",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (3)/Intel Core i7-13700K.jpg",
+      "desc": "Intel Core i7-13700KF Gaming Desktop Processor 16 núcleos (8 núcleos P + 8 núcleos E) - Desbloqueado"
+    },
+    {
+      "id": "procesadores-amd-ryzen-7-7700x",
+      "title": "- AMD Ryzen 7 7700X",
+      "category": "procesadores",
+      "image": "Zona-Hardware/cpu/producto (9)/- AMD Ryzen 7 7700X.webp",
+      "desc": "AMD Ryzen 7 7700X - Procesador de escritorio desbloqueado de 8 núcleos y 16 hilos"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-gtx-1660-super",
+      "title": "NVIDIA GeForce GTX 1660 Super",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta/NVIDIA GeForce GTX 1660 Super.jpg",
+      "desc": "MSI Gaming Tarjeta gráfica GeForce GTX 1660 Super 192-bit HDMI/DP 6GB GDRR6 Soporte HDCP DirectX 12 Doble Ventilador VR Ready OC (GTX 1660 Super VENTUS XS OC)"
+    },
+    {
+      "id": "tarjetas-graficas-amd-radeon-rx-6800-xt",
+      "title": "AMD Radeon RX 6800 XT",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (8)/AMD Radeon RX 6800 XT.jpg",
+      "desc": "XFX Speedster SWFT319 AMD Radeon RX 6800 - Tarjeta gráfica para juegos con 16 GB GDDR6, AMD RDNA 2 RX-68XLAQBD9"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-rtx-3050",
+      "title": "NVIDIA GeForce RTX 3050",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (2)/NVIDIA GeForce RTX 3050.jpg",
+      "desc": "ASUS Tarjeta gráfica dual NVIDIA GeForce RTX 3050 6GB OC Edition Gaming - PCIe 4.0, memoria GDDR6 de 6 GB, HDMI 2.1, DisplayPort 1.4a, diseño de 2 ranuras, diseño de ventilador de tecnología axial, tecnología 0dB, soporte de acero"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-rtx-3080",
+      "title": "NVIDIA GeForce RTX 3080",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (5)/NVIDIA GeForce RTX 3080.jpg",
+      "desc": "Dell Tarjeta de video gráfica NVIDIA GeForce RTX 3080 10GB GDDR6X 320-bit 19Gbps PCIe 4.0 x16 0Y5K9F (renovada)"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-rtx-4090",
+      "title": "NVIDIA GeForce RTX 4090",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (6)/NVIDIA GeForce RTX 4090.jpg",
+      "desc": "NVIDIA - Tarjeta gráfica GeForce RTX 4080 16GB GDDR6X"
+    },
+    {
+      "id": "tarjetas-graficas-radeon-rx-7600",
+      "title": "Radeon RX 7600",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (7)/Radeon RX 7600.jpg",
+      "desc": "XFX Speedster SWFT210 Radeon RX 7600 - Tarjeta gráfica con 8 GB GDDR6 HDMI 3xDP, AMD RDNA 3 RX-76PSWFTFA\ns"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-rtx-3070",
+      "title": "NVIDIA GeForce RTX 3070",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (4)/NVIDIA GeForce RTX 3070.webp",
+      "desc": "GIGABYTE Tarjeta gráfica GeForce RTX 3070 Gaming OC 8G, 3 ventiladores WINDFORCE, 8 GB 256 bits GDDR6, tarjeta de video GV-N3070GAMING OC-8GD"
+    },
+    {
+      "id": "tarjetas-graficas-challenger-radeon-rx-7800-x",
+      "title": "Challenger Radeon RX 7800 X",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (10)/Challenger Radeon RX 7800 X.jpg",
+      "desc": "ASRock Challenger Radeon RX 7800 XT OC RX7800XT CL 16GO 16GB GDDR6-90-GA4SZZ-00UANF"
+    },
+    {
+      "id": "tarjetas-graficas-9060-xt-oc-triple-fan-gaming-edition",
+      "title": "9060 XT OC Triple Fan Gaming Edition",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (9)/9060 XT OC Triple Fan Gaming Edition.jpg",
+      "desc": "XFX Swift AMD Radeon RX 9060 XT OC Triple Fan Gaming Edition con 16GB GDDR6 HDMI 2xDP, AMD RDNA 4 RX 9060XT RX-96TS316BA"
+    },
+    {
+      "id": "tarjetas-graficas-nvidia-geforce-rtx-3060-ti",
+      "title": "NVIDIA GeForce RTX 3060 Ti",
+      "category": "tarjetas-graficas",
+      "image": "Zona-Hardware/gpu/Nueva carpeta (3)/NVIDIA GeForce RTX 3060 Ti.webp",
+      "desc": "MSI Tarjeta gráfica GeForce RTX 3060 12GB 15 Gbps GDRR6 192-Bit HDMI/DP PCIe 4 Torx Twin Fan Ampere OC"
+    },
+    {
+      "id": "almacenamiento-ssd-kingston-a2000-nvme-500gb",
+      "title": "- SSD Kingston A2000 NVMe 500GB",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta/- SSD Kingston A2000 NVMe 500GB.webp",
+      "desc": "Kingston NV3 500GB M.2 2280 NVMe SSD  PCIe 4.0 Gen 4x4  Hasta 5000 MBs  SNV3S500G"
+    },
+    {
+      "id": "almacenamiento-western-digital-ssd-interno-wd-sn3000-nvme-verde-de-500-gb",
+      "title": "Western Digital SSD interno WD SN3000 NVMe verde de 500 GB",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (8)/Western Digital SSD interno WD SN3000 NVMe verde de 500 GB.jpg",
+      "desc": "Western Digital SSD interno WD SN3000 NVMe verde de 500 GB - Unidad de estado sólido - Gen4 PCIe, M.2 2280, hasta 5,000 MB/s - WDS500G4G0E"
+    },
+    {
+      "id": "almacenamiento-ssd-samsung-970-evo-plus-1tb",
+      "title": "- SSD Samsung 970 EVO Plus 1TB",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (2)/- SSD Samsung 970 EVO Plus 1TB.webp",
+      "desc": "SAMSUNG 990 EVO - SSD de 1TB, PCIe Gen 4x4 y 5x2 M.2 2280 NVMe, unidad de estado sólido interna, velocidades de hasta 5000 MB/s, almacenamiento para PC/portátil, MZ-V9E1T0B/AM, negro"
+    },
+    {
+      "id": "almacenamiento-samsung-870-evo-2-5-pulgadas-sata-iii-ssd-interno",
+      "title": "SAMSUNG 870 EVO 2.5 pulgadas SATA III SSD interno",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (5)/SAMSUNG 870 EVO 2.5 pulgadas SATA III SSD interno.jpg",
+      "desc": "SAMSUNG 870 EVO 2.5 pulgadas SATA III SSD interno"
+    },
+    {
+      "id": "almacenamiento-western-digital-wds480g3g0a-unidad-de-estado-solido-ssd",
+      "title": "Western Digital WDS480G3G0A - Unidad de estado sólido SSD",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (6)/Western Digital WDS480G3G0A - Unidad de estado sólido SSD.jpg",
+      "desc": "Western Digital WDS480G3G0A - Unidad de estado sólido SSD interna verde de 480 GB WD - SATA III 6 Gb/s, 2.5\"/7 mm, hasta 545 MB/s"
+    },
+    {
+      "id": "almacenamiento-kingston-ssd",
+      "title": "Kingston SSD",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (7)/Kingston SSD.jpg",
+      "desc": "Kingston SSD - HDD interno de repuesto para aumentar el rendimiento"
+    },
+    {
+      "id": "almacenamiento-ssd-wd-black-sn850x-2tb-nvme",
+      "title": "SSD WD Black SN850X 2TB NVMe",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (4)/SSD WD Black SN850X 2TB NVMe.jpg",
+      "desc": "WD_BLACK Unidad interna de estado sólido SSD SN850X NVMe de 2TB - Gen4 PCIe, M.2 2280, hasta 7,300 MB/s - WDS200T2X0E"
+    },
+    {
+      "id": "almacenamiento-lexar-ns100-512-gb",
+      "title": "Lexar NS100 512 GB",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (10)/Lexar NS100 512 GB.jpg",
+      "desc": "Lexar NS100 512 GB SATA III SSD interno de 2.5 pulgadas, hasta 550 MB/s de lectura (LNS100-512RBNA)."
+    },
+    {
+      "id": "almacenamiento-samsung-t9-ssd",
+      "title": "SAMSUNG T9 SSD",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (9)/SAMSUNG T9 SSD.jpg",
+      "desc": "SAMSUNG T9 SSD portátil de 1 TB, unidad de estado sólido externa USB 3.2 Gen 2x2, velocidades de lectura de hasta 2,000 MB/s para juegos, estudiantes y profesionales, MU-PG1T0B/AM, negro"
+    },
+    {
+      "id": "almacenamiento-ssd-crucial-mx500-1tb-sata",
+      "title": "- SSD Crucial MX500 1TB SATA",
+      "category": "almacenamiento",
+      "image": "Zona-Hardware/almacenamiento/Nueva carpeta (3)/- SSD Crucial MX500 1TB SATA.jpg",
+      "desc": "Crucial BX500 1TB 3D NAND SATA SSD interno de 2.5 pulgadas, hasta 540MB/s - CT1000BX500SSD1, unidad de estado sólido"
+    },
+    {
+      "id": "monitores-ultragear-full-hd",
+      "title": "Ultragear Full HD",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (5)/Ultragear Full HD.jpg",
+      "desc": "LG 24G411A-B Monitor de juegos Ultragear Full HD (1920 x 1080) IPS de 24 pulgadas, 144 Hz (O/C), 1 ms MBR, compatible con NVIDIA G-Sync, AMD FreeSync, HDR10, HDMI, DisplayPort, soporte delgado, negro"
+    },
+    {
+      "id": "monitores-samsung-monitor-para-juegos-odyssey-g5-g53f",
+      "title": "SAMSUNG Monitor para juegos Odyssey G5 G53F",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (6)/SAMSUNG Monitor para juegos Odyssey G5 G53F.jpg",
+      "desc": "SAMSUNG Monitor para juegos Odyssey G5 G53F QHD de 27\", HDR10, frecuencia de actualización de 200Hz, panel IPS, AMD FreeSync Premium, ecualizador negro, interruptor de fuente automática, LS27FG532ENXZA"
+    },
+    {
+      "id": "monitores-samsung-odyssey-oled-g93sc",
+      "title": "Samsung Odyssey OLED (G93SC",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (2)/Samsung Odyssey OLED (G93SC.jpg",
+      "desc": "Samsung Odyssey OLED (G93SC) - Monitor curvado para juegos de 49 pulgadas con QD-OLED, 240Hz, 0.03ms, DQHD, compatible con G-Sync, AMD FreeSync Premium Pro, soporte ajustable en altura, LS49CG932SNXZA"
+    },
+    {
+      "id": "monitores-samsung-odyssey-g55c-series-qhd-1000r-monitor-curvo-para-jue",
+      "title": "SAMSUNG Odyssey G55C Series QHD 1000R Monitor curvo para juegos, 1 ms (MPRT), HDR10, 165Hz,",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (8)/SAMSUNG Odyssey G55C Series QHD 1000R Monitor curvo para juegos, 1 ms (MPRT), HDR10, 165Hz,.jpg",
+      "desc": "SAMSUNG Odyssey G55C Series QHD 1000R Monitor curvo para juegos, 1 ms (MPRT), HDR10, 165Hz, AMD Radeon FreeSync, cuidado de los ojos, sin deslumbramiento, resolución nítida LS32CG550ENXZA"
+    },
+    {
+      "id": "monitores-sceptre-c345b-qut168-monitor",
+      "title": "Sceptre C345B-QUT168 Monitor",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores/Sceptre C345B-QUT168 Monitor.jpg",
+      "desc": "Sceptre C345B-QUT168 Monitor WQHD ultraancho, curvo 1500 R, 34\", 3440 x 1440, hasta 165 Hz, 2 DisplayPort, 99% sRGB, 1 ms, imagen por imagen, negro máquina 2023"
+    },
+    {
+      "id": "monitores-lg-27gs60qc-b-ultragear-monitor",
+      "title": "LG 27GS60QC-B Ultragear Monitor",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (3)/LG 27GS60QC-B Ultragear Monitor.jpg",
+      "desc": "LG 27GS60QC-B Ultragear Monitor Curvo para Juegos de 27 Pulgadas QHD (2560x1440) 180Hz 1ms 1000R AMD FreeSync HDR10 HDMIx2 DisplayPort Diseño Sin Fronteras Negro Estabilizador DAS Punto de mira FPS Contador - Negro"
+    },
+    {
+      "id": "monitores-samsung-monitor-para-juegos-odyssey-g3",
+      "title": "Samsung Monitor para juegos Odyssey G3",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (10)/Samsung Monitor para juegos Odyssey G3.jpg",
+      "desc": "Samsung Monitor para juegos Odyssey G3 (G30D) de 27 pulgadas serie FHD, 1ms, 180Hz, AMD FreeSync, soporte ajustable, ecualizador negro, punto de objetivo virtual, modo protector de ojos, sin parpadeo, LS27DG302ENXZA"
+    },
+    {
+      "id": "monitores-samsung-monitor-de-computadora",
+      "title": "Samsung Monitor de computadora",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (9)/Samsung Monitor de computadora.jpg",
+      "desc": "Samsung Monitor de computadora curvo FHD 1800R Essential S3 (S36GD) de 27 pulgadas, 100Hz, modo de juego, comodidad ocular avanzada, puertos HDMI y D-sub, LS27D366GANXZA, 2024"
+    },
+    {
+      "id": "monitores-descrf",
+      "title": "descrf",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (7)/descrf.jpg",
+      "desc": "SAMSUNG - Monitor de juegos ultraancho Odyssey G5 de 34 pulgadas con pantalla curva 1000R, 165Hz, 1ms, FreeSync Premium, WQHD (LC34G55TWWNXZA, modelo 2020), color negro."
+    },
+    {
+      "id": "monitores-koorui",
+      "title": "KOORUI --",
+      "category": "monitores",
+      "image": "Zona-Hardware/monitores/monitores (4)/KOORUI --.jpg",
+      "desc": "KOORUI - Monitor de 24 pulgadas, IPS rápido, FHD de 165 Hz, pantalla de PC de 1 ms, colores sRGB del 99%, Adaptive Sync, marco ultra delgado, montaje VESA (1920 x 1080P, HDMI, DisplayPort) 24E3"
+    },
+    {
+      "id": "perifericos-bladehawks-alfombrilla",
+      "title": "BladeHawks Alfombrilla",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (21)/BladeHawks Alfombrilla.jpg",
+      "desc": "BladeHawks Alfombrilla de mouse RGB extra grande para juegos, 14 modos de luz, alfombrilla de mouse LED suave extendida, base de goma antideslizante, alfombrilla para teclado de computadora (31.5 x 12 pulgadas) US$20.99"
+    },
+    {
+      "id": "perifericos-kanagawa-alfombrilla-de",
+      "title": "Kanagawa - Alfombrilla de",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (28)/Kanagawa - Alfombrilla de.jpg",
+      "desc": "Kanagawa - Alfombrilla de mouse japonesa para juegos, color negro, grande, base de goma antideslizante, impermeable con bordes cosidos, para juegos, oficina, hogar, 31.5 x 11.8 pulgadas (onda negra)"
+    },
+    {
+      "id": "perifericos-acegamer-aurora-ii-2-4g",
+      "title": "AceGamer Aurora II 2.4G",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (22)/AceGamer Aurora II 2.4G.jpg",
+      "desc": "AceGamer Aurora II 2.4G Controlador Bluetooth inalámbrico para PC/Android/Switch/iOS/Switch 2/Steam Deck con motores rotativos, joysticks de efecto Hall RGB - Controlador de juegos de PC"
+    },
+    {
+      "id": "perifericos-steelseries-arctis-nova-1",
+      "title": "SteelSeries Arctis Nova 1",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (16)/SteelSeries Arctis Nova 1.jpg",
+      "desc": "SteelSeries Arctis Nova 1 - Auriculares para juegos multisistema, controladores de alta fidelidad, audio espacial de 360°, diseño cómodo, duradero, ultraligero, micrófono con cancelación de ruido, PC, PS5/PS4, Switch, Xbox, color negro"
+    },
+    {
+      "id": "perifericos-steelseries-qck-xl",
+      "title": "SteelSeries QcK XL",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (30)/SteelSeries QcK XL.jpg",
+      "desc": "SteelSeries QcK XL Performance Control - Alfombrilla de mouse para juegos – Densidad extra para un deslizamiento suave – Costuras de borde bajo – Base de goma de neopreno antideslizante – 15.75 x 34.43 pulgadas – FPS, MOBAs, RTS, MMO"
+    },
+    {
+      "id": "perifericos-redragon-m719-antonium-rgb",
+      "title": "Redragon M719 Antonium RGB",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (11)/Redragon M719 Antonium RGB.jpg",
+      "desc": "Redragon M719 Antonium RGB Gaming Mouse, 10,000 DPI Ratones ópticos con cable con 8 botones programables y 8 modos retroiluminados, software compatible con teclas DIY Keybinds Botón de disparo rápido"
+    },
+    {
+      "id": "perifericos-steelseries-prime-mouse-para-videojuegos",
+      "title": "SteelSeries Prime mouse para videojuegos",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (12)/SteelSeries Prime mouse para videojuegos.jpg",
+      "desc": "SteelSeries Prime mouse para videojuegos FPS, 18,000 CPI, sensor óptico TrueMove Pro, 5 botones programables, interruptores ópticos magnéticos, iluminación Prism RGB brillante, color negro"
+    },
+    {
+      "id": "perifericos-razer-kraken-v3-x-auriculares-usb",
+      "title": "Razer Kraken V3 X Auriculares USB",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (18)/Razer Kraken V3 X Auriculares USB.jpg",
+      "desc": "Razer Kraken V3 X Auriculares USB con cable para juegos: construcción ligera, controladores Triforce de 1.575 in, micrófono cardioide HyperClear, sonido envolvente 7.1, iluminación Chroma RGB, color negro"
+    },
+    {
+      "id": "perifericos-mauspad",
+      "title": "mauspad",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (26)/mauspad.webp",
+      "desc": "Alfombrilla de mouse grande para juegos, alfombrilla de mouse en blanco y negro con bordes cosidos, alfombrilla de mouse XL extendida con base de goma antideslizante, alfombrilla de escritorio de onda líquida de tinta para teclado y mouse (31.5 x 15.8 pulgadas)"
+    },
+    {
+      "id": "perifericos-razer-blackshark-v2-x-auriculares",
+      "title": "Razer BlackShark V2 X Auriculares",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (25)/Razer BlackShark V2 X Auriculares.jpg",
+      "desc": "Razer BlackShark V2 X Auriculares para gamer: sonido envolvente 7.1, controladores de 1.9 ″, almohadillas de espuma viscoelástica, para computador, PS4, PS5 o Switch con conector de 3.5 mm, negros"
+    },
+    {
+      "id": "perifericos-teclado",
+      "title": "teclado",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (24)/teclado.jpg",
+      "desc": "Teclado mecánico 60% retroiluminado RGB con cable 60% para juegos azul con teclas PBT para jugadores de PC con Windows (interruptor mar/rojo  US$32.99"
+    },
+    {
+      "id": "perifericos-mauspadd",
+      "title": "mauspadd",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (27)/mauspadd.webp",
+      "desc": "Alfombrilla de ratón RGB LED, alfombrilla de ratón grande, alfombrilla de ratón LED y grande"
+    },
+    {
+      "id": "perifericos-logitech-g-pro-x-superlight-2-lightspeed",
+      "title": "Logitech G PRO X SUPERLIGHT 2 Lightspeed",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (13)/Logitech G PRO X SUPERLIGHT 2 Lightspeed.jpg",
+      "desc": "Logitech G PRO X SUPERLIGHT 2 Lightspeed - Mouse inalámbrico, sondeo de 8 k, ligero, interruptores híbridos LIGHTFORCE, sensor HERO 2, 888 IPS, 44 000 DPI, 5 botones programables, carga USB-C, PC/Mac"
+    },
+    {
+      "id": "perifericos-razer-basilisk-v3",
+      "title": "Razer Basilisk V3",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (19)/Razer Basilisk V3.jpg",
+      "desc": "Razer Basilisk V3 - Mouse ergonómico personalizable para juegos: el interruptor de mouse para juegos más rápido - Iluminación Chroma RGB - Sensor óptico de 26K DPI - 11 botones programables - Rueda de inclinación HyperScroll - Negro clásico $34"
+    },
+    {
+      "id": "perifericos-dierya-t68se",
+      "title": "DIERYA T68SE",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico/DIERYA T68SE.jpg",
+      "desc": "DIERYA T68SE - Teclado mecánico 60% para juegos, ultra compacto Mini 68 teclas con interruptores rojos, teclado con cable, teclas anti-fantasma, para portátiles con Windows y jugadores de PC, color blanco US$27.98"
+    },
+    {
+      "id": "perifericos-logitech-g203-rgb",
+      "title": "Logitech G203 RGB",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (14)/Logitech G203 RGB.jpg",
+      "desc": "Logitech G203 RGB - Mouse cableado para videojuegos"
+    },
+    {
+      "id": "perifericos-razer-orochi-v2",
+      "title": "Razer Orochi V2",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (31)/Razer Orochi V2.jpg",
+      "desc": "Razer Orochi V2 - Mouse inalámbrico móvil para juegos: ultraligero - 2 modos inalámbricos - Hasta 950 horas de duración de la batería - Interruptores mecánicos de mouse - Sensor óptico avanzado 5G de 18 K DPI - Blanco"
+    },
+    {
+      "id": "perifericos-hyperx-cloud-iii",
+      "title": "HyperX Cloud III",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (17)/HyperX Cloud III.jpg",
+      "desc": "HyperX Cloud III - Auriculares con cable para juegos, bocinas en ángulo 2 pulgadas (53 mm), DTS, espuma viscoelástica, micrófono ultraclaro de 25/64 pulgadas (10 mm), USB-C, USB-A, 3.5 mm"
+    },
+    {
+      "id": "perifericos-asus-rog",
+      "title": "ASUS ROG",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (32)/ASUS ROG.jpg",
+      "desc": "ASUS ROG Harpe Ace Aim Lab - Mouse inalámbrico para juegos de eSports – Optimizador de configuración de Aim Lab, probado profesionalmente, diestro, 1.90 oz ligero, conectividad trimodo, 36K DPI, batería de 90 horas, soporte para PC/Mac, color negro"
+    },
+    {
+      "id": "perifericos-razer-gigantus",
+      "title": "Razer Gigantus",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (29)/Razer Gigantus.jpg",
+      "desc": "Razer Gigantus - Alfombrilla de mouse para juegos V2 XXL: superficie de tela microtejida texturizada, espuma de goma gruesa de alta densidad, base antideslizante, edición Pokémon Gengar"
+    },
+    {
+      "id": "perifericos-sama-teclado-con-cable-gx50-cool",
+      "title": "SAMA Teclado con cable GX50 Cool",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (23)/SAMA Teclado con cable GX50 Cool.jpg",
+      "desc": "SAMA Teclado con cable GX50 Cool Esports Teclado mecánico periférico con retroiluminación LED arco iris, 104 teclas para computadora/portátil/escritorio/nota/Mac (negro)"
+    },
+    {
+      "id": "perifericos-mouse-para-juegos-razer-deathadder",
+      "title": "Mouse para juegos Razer DeathAdder",
+      "category": "perifericos",
+      "image": "Zona-Hardware/perifericos/periferico (20)/Mouse para juegos Razer DeathAdder.jpg",
+      "desc": "Mouse para juegos Razer DeathAdder Essential: Sensor óptico 6400 DPI, 5 botones programa bles, interruptores mecánicos, agarres laterales de goma. Negro clásico US$16.98"
+    },
+    {
+      "id": "gabinetes-gamdias-carcasa-de-pc-de-media-torre-rgb",
+      "title": "GAMDIAS Carcasa de PC de media torre RGB",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (6)/GAMDIAS Carcasa de PC de media torre RGB.jpg",
+      "desc": "GAMDIAS Carcasa de PC de media torre RGB para juegos RGB con vidrio templado lateral y excelente diseño de flujo de aire y 3 ventiladores ARGB integrados de 4.724 in  US$60.99"
+    },
+    {
+      "id": "gabinetes-msi-mag-forge-321r-airflow-carcasa",
+      "title": "MSI MAG Forge 321R Airflow - Carcasa",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (5)/MSI MAG Forge 321R Airflow - Carcasa.jpg",
+      "desc": "MSI MAG Forge 321R Airflow - Carcasa premium para PC de juegos de media torre - Panel lateral de vidrio templado - Ventiladores ARGB de 4.724 in - Soporte de refrigeración líquida de hasta 14.173 in Radiador - Panel frontal ventilado  US$89.99"
+    },
+    {
+      "id": "gabinetes-ruix-ov502-m-atx-carcasa-para-pc-de-minitorre",
+      "title": "RUIX OV502 M-ATX - Carcasa para PC de minitorre",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete/RUIX OV502 M-ATX - Carcasa para PC de minitorre.jpg",
+      "desc": "RUIX OV502 M-ATX - Carcasa para PC de minitorre, preinstalada con 3 ventiladores Prism ARGB PWM de 4.724 in, panel de vidrio templado panorámico de 180°, puertos USB 3.0, carcasa compacta para computadora de juegos de alto flujo de aire, color negro  US$59.99"
+    },
+    {
+      "id": "gabinetes-matx-funda-de-pc-con-panel-de-vidrio",
+      "title": "MATX - Funda de PC con panel de vidrio",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (2)/MATX - Funda de PC con panel de vidrio.jpg",
+      "desc": "MATX - Funda de PC con panel de vidrio templado panorámico de 270°, 3 ventiladores preinstalados Micro-ATX, USB 3.0, negro (V3) US$49.99"
+    },
+    {
+      "id": "gabinetes-musetex-funda-para-pc-atx-3-ventiladores-de-4-724-in-preinst",
+      "title": "MUSETEX Funda para PC ATX, 3 ventiladores de 4.724 in preinstalados,",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (8)/MUSETEX Funda para PC ATX, 3 ventiladores de 4.724 in preinstalados,.jpg",
+      "desc": "MUSETEX Funda para PC ATX, 3 ventiladores de 4.724 in preinstalados, soporte RAD de 14.173 in, carcasa de PC para juegos de vidrio templado de visión completa de 270° con tipo C, carcasa de  US$99.99"
+    },
+    {
+      "id": "gabinetes-darkrock-ec2",
+      "title": "DARKROCK EC2",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (3)/DARKROCK EC2.jpg",
+      "desc": "DARKROCK EC2 - Carcasa de PC de torre media ATX negra, lista para tipo C, compatible con tarjetas gráficas de la serie 50, panel lateral de vidrio templado, ventiladores de refrigeración de hasta 0.315 x 4.724 in y 1 radiador de 14.173 in, 1 ventilador preinstalado  US$54.99"
+    },
+    {
+      "id": "gabinetes-nzxt-h5-flow-2024-carcasa-compacta-atx",
+      "title": "NZXT H5 Flow 2024 - Carcasa compacta ATX",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (9)/NZXT H5 Flow 2024 - Carcasa compacta ATX.jpg",
+      "desc": "NZXT H5 Flow 2024 - Carcasa compacta ATX para juegos de PC de media torre - Alto flujo de aire - 2 ventiladores de 4.724 in incluidos - Soporte frontal de 14.173 in y radiador superior de 9.449 in - Sistema de gestión de cables - Vidrio templado - Negro US$84.99"
+    },
+    {
+      "id": "gabinetes-carcasa-para-pc-preinstalada-con-4-ventiladores-rgb",
+      "title": "Carcasa para PC preinstalada con 4 ventiladores RGB",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (10)/Carcasa para PC preinstalada con 4 ventiladores RGB.jpg",
+      "desc": "Carcasa para PC preinstalada con 4 ventiladores RGB, carcasa de computadora ATX para juegos con malla frontal en forma de diamante y panel lateral de vidrio templado, funda USB 3.0 de flujo de aire de media torre"
+    },
+    {
+      "id": "gabinetes-bgears-b-voguish",
+      "title": "Bgears b-Voguish",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (4)/Bgears b-Voguish.png",
+      "desc": "Bgears b-Voguish Gaming PC Case con paneles de vidrio templado, USB3.0, compatible con E-ATX, ATX, mATX, ITX. (Los ventiladores se venden por separado) $52.99."
+    },
+    {
+      "id": "gabinetes-gamdias-carcasa-de-pc-atx-de-media-torre-para-juegos-de-vidr",
+      "title": "GAMDIAS Carcasa de PC ATX de media torre para juegos de vidrio templado",
+      "category": "gabinetes",
+      "image": "Zona-Hardware/Gabinetes/gabinete (7)/GAMDIAS Carcasa de PC ATX de media torre para juegos de vidrio templado.jpg",
+      "desc": "GAMDIAS Carcasa de PC ATX de media torre para juegos de vidrio templado, 4 ventiladores ARGB integrados de 4.724 in, malla de flujo de aire frontal, ventiladores de hasta 0.236 x 4.724 in, GPU/VGA de 13.386 in, AIO/radiador de 14.173 in, enfriador de CPU de 6.299  US$59.99"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoder",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 9/fuenteDePoder.jpg",
+      "desc": "Fuente de alimentación de 700 W, fuente de alimentación ATX no modular con ventilador de refrigeración ultra silencioso de 4.724 in, compatible con interruptor de 115/220 V, todas las protecciones"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoder",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 10/fuenteDePoder.jpg",
+      "desc": "MSI Fuente de alimentación para juegos MPG A850G PCIE 5.1 y ATX 3.1 - Full Modular - 80 Plus Gold Certified 850W - Condensadores 100% japoneses a 221.0 °F - Tamaño compacto - ATX PSU"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoder",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 7/fuenteDePoder.jpg",
+      "desc": "MSI MPG A850GS PCIE5, fuente de alimentación para juegos totalmente modular de 850 W, 80+ Gold, cables duales de 12V-2x6, condensador de grado de servidor, listo para ATX 3.1 y PCIe 5.1, bajo ruido, semi digital"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoDER",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 6/fuenteDePoDER.jpg",
+      "desc": "Apevia ATX-PM650W Premier 650W 80+ Gold Certified Active PFC ATX Fuente de alimentación semimodular para juegos con 366 modos de luz RGB"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoder",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 8/fuenteDePoder.jpg",
+      "desc": "Seasonic CORE GX-650-650W - 80+ Gold - Listo para ATX 3.0 y PCIe 5.0 - Totalmente modular - Condensadores premium - 7 años de garantía - Compatible con Nvidia RTX 40/50 y AMD GPU"
+    },
+    {
+      "id": "fuentes-gamemax-fuente-de-alimentacion",
+      "title": "GAMEMAX Fuente de alimentación ",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 3/GAMEMAX Fuente de alimentación .jpg",
+      "desc": "GAMEMAX Fuente de alimentación de 850 W, totalmente modular, 80 Plus Gold, ARGB SYNC con placa base, RGB-850 Pro"
+    },
+    {
+      "id": "fuentes-thermaltake-fuente-de-alimentacion",
+      "title": "thermaltake Fuente de alimentación ",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 4/thermaltake Fuente de alimentación .jpg",
+      "desc": "Thermaltake Fuente de alimentación inteligente con certificación blanca de 700 W 80+, alimentación continua con ventilador ultra silencioso de 4.724 in, ATX 12V V2.3/EPS 12V fuente de alimentación PFC activa PS-SPD-0700NPCWUS-W"
+    },
+    {
+      "id": "fuentes-fuentedepoder",
+      "title": "fuenteDePoder",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 5/fuenteDePoder.jpg",
+      "desc": "Rosewill VSB 750 W 80+ Bronce, compatible con ATX 3.0 y 3.1, fuente de alimentación semimodular, conector PCIe 5.1 de 12 V-2 x 6, condensador japonés de 221.0 °F/221 °F, ventilador silencioso ICB de 4.724"
+    },
+    {
+      "id": "fuentes-pccooler-fuente-de-alimentacion",
+      "title": "PCCOOLER Fuente de alimentación",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título 2/PCCOOLER Fuente de alimentación.jpg",
+      "desc": "PCCOOLER Fuente de alimentación totalmente modular, 850 W ATX 3.1, 80 Plus certificado Gold, PCIe 5.1 12V-2×6, condensadores japoneses, cables ultra flexibles,85.99US$85.99"
+    },
+    {
+      "id": "fuentes-gamemax-rampage-series-fuente-de-alimentacion",
+      "title": "GAMEMAX Rampage Series - Fuente de alimentación",
+      "category": "fuentes",
+      "image": "Zona-Hardware/fuente-de-poder/carpeta sin título/GAMEMAX Rampage Series - Fuente de alimentación.jpg",
+      "desc": "GAMEMAX Rampage Series - Fuente de alimentación totalmente modular con certificación Platinum ATX 3.1 y PCIe 5.1 80 Plus, ventilador FDB de 5.315 in, tapas japonesas de 221.0 °F, GX1050, color blanco. US$89.99"
+    },
+    {
+      "id": "memoria-corsair-vengeance-lpx-8gb-1-x-8gb",
+      "title": "Corsair Vengeance LPX 8GB (1 x 8GB)",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta/Corsair Vengeance LPX 8GB (1 x 8GB).jpg",
+      "desc": "Corsair Vengeance LPX 8GB (1 x 8GB) DDR4 DRAM 2400MHz C16 (PC4-19200) Kit de memoria - negro (CMK8GX4M1A2400C16)"
+    },
+    {
+      "id": "memoria-patriot-viper-steel-ddr4-ram-32gb",
+      "title": "Patriot Viper Steel DDR4 RAM 32GB",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (8)/Patriot Viper Steel DDR4 RAM 32GB.jpg",
+      "desc": "Patriot Viper Steel DDR4 RAM 32GB (2X16GB) 3200MHz CL16 1.35v UDIMM Kit de memoria para juegos de escritorio compatible con XMP - PVS432G320C6K"
+    },
+    {
+      "id": "memoria-corsair-vengeance-rgb-pro-ddr4-ram-32-gb",
+      "title": "CORSAIR Vengeance RGB PRO DDR4 RAM 32 GB",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (2)/CORSAIR Vengeance RGB PRO DDR4 RAM 32 GB.jpg",
+      "desc": "CORSAIR Vengeance RGB PRO DDR4 RAM 32 GB (2 x 16 GB) 3200 MHz CL16-20-20-38 1.35V Intel AMD Memoria de computadora de escritorio - Negro (CMW16GX4M2C3200C16)"
+    },
+    {
+      "id": "memoria-corsair-vengeance-lpx-ddr4-ram-32-gb-2-x-16-gb",
+      "title": "CORSAIR Vengeance LPX DDR4 RAM 32 GB (2 x 16 GB)",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (5)/CORSAIR Vengeance LPX DDR4 RAM 32 GB (2 x 16 GB).jpg",
+      "desc": "CORSAIR Vengeance LPX DDR4 RAM 32 GB (2 x 16 GB) 3200 MHz CL16-20-20-38 1.35V Intel AMD Memoria para computadora de escritorio, color negro (CMK32GX4M2E3200C16)"
+    },
+    {
+      "id": "memoria-patriot-signature-line-ddr4",
+      "title": "Patriot Signature Line DDR4",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (6)/Patriot Signature Line DDR4.jpg",
+      "desc": "Patriot Signature Line DDR4 Memoria 16 GB (1 x 16 GB) 3200 MHz (módulo de doble cara de 2 rangos) - PSD416G32002"
+    },
+    {
+      "id": "memoria-patriot-viper-4-series-3000-mhz-pc4-24000",
+      "title": "Patriot Viper 4 Series 3000 MHz (PC4 24000)",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (7)/Patriot Viper 4 Series 3000 MHz (PC4 24000).jpg",
+      "desc": "Patriot Viper 4 Series 3000 MHz (PC4 24000) 16 GB Quad Channel DDR4 Kit – pv416g300 C6qk, Negro y rojo"
+    },
+    {
+      "id": "memoria-teamgroup-t-force-xtreem-argb-3600mhz-cl18-16gb-2x8gb",
+      "title": "TEAMGROUP T-Force Xtreem ARGB 3600MHz CL18 16GB (2x8GB)",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (4)/TEAMGROUP T-Force Xtreem ARGB 3600MHz CL18 16GB (2x8GB).jpg",
+      "desc": "TEAMGROUP T-Force Xtreem ARGB 3600MHz CL18 16GB (2x8GB) PC4-28800 Dual Channel DDR4 DRAM Desktop Gaming Memory Ram (blanco) - TF13D416G3600HC18JDC01"
+    },
+    {
+      "id": "memoria-timetec-hynix-modulo-de-memoria-grado-a-ic-de-1600",
+      "title": "Timetec Hynix Módulo de memoria grado A, IC, de 1600",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (10)/Timetec Hynix Módulo de memoria grado A, IC, de 1600.jpg",
+      "desc": "Timetec Hynix Módulo de memoria grado A, IC, de 1600 megahercios, (PC3 12800), no ECC, sin memoria intermedia, CL11 de 1.35/1.5 voltios, con 240 pins UDIMM."
+    },
+    {
+      "id": "memoria-patriot-memory-viper-elite-5-tuf-gaming-rgb-ddr5-ram-32gb",
+      "title": "Patriot Memory Viper Elite 5 TUF Gaming RGB DDR5 RAM 32GB",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (9)/Patriot Memory Viper Elite 5 TUF Gaming RGB DDR5 RAM 32GB.jpg",
+      "desc": "Patriot Memory Viper Elite 5 TUF Gaming RGB DDR5 RAM 32GB (2X16GB) 6600MT/s CL34 1.4v UDIMM Kit de memoria para juegos de escritorio compatible con Intel XMP - PVER532G66C34KT"
+    },
+    {
+      "id": "memoria-dato-ares-armor-lite-memoria-ram-ddr4-de-32-gb-16-gbx2",
+      "title": "DATO ARES Armor Lite - Memoria RAM DDR4 de 32 GB, 16 GBx2",
+      "category": "memoria",
+      "image": "Zona-Hardware/ram/Nueva carpeta (3)/DATO ARES Armor Lite - Memoria RAM DDR4 de 32 GB, 16 GBx2.jpg",
+      "desc": "DATO ARES Armor Lite - Memoria RAM DDR4 de 32 GB, 16 GBx2, con disipador de calor RGB 3200 MHz CL16 1.35 V XMP PC4-25600 288 pines no ECC UDIMM módulo de memoria de escritorio para juegos, ARES Armors"
+    },
+    {
+      "id": "motherboard-asus-prime-b550m-a",
+      "title": "- ASUS Prime B550M-A",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta/- ASUS Prime B550M-A.jpg",
+      "desc": "ASUS Prime B550-PLUS AC-HES AMD AM4 (3ª generación Ryzen) ATX Placa base (Dual M.2, PCIe4.0, WIFI5, 1 Gb Ethernet, SATA 6 Gbps, USB 3.2 Gen 2 Tipo-C, frontal USB 3.2 Gen 1 Tipo-C y CEC Tier II listo)"
+    },
+    {
+      "id": "motherboard-asrock-b550-phantom-gaming-4-ac-soporta-3a-generacion-amd-am",
+      "title": "ASRock B550 Phantom Gaming 4 AC Soporta 3ª generación AMD AM4",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (8)/ASRock B550 Phantom Gaming 4 AC Soporta 3ª generación AMD AM4.jpg",
+      "desc": "ASRock B550 Phantom Gaming 4 AC Soporta 3ª generación AMD AM4 Ryzen / Future AMD Ryzen Procesadores Motherboard"
+    },
+    {
+      "id": "motherboard-asus-tuf-gaming-b550-plus-wifi-ii-amd-am4",
+      "title": "ASUS TUF Gaming B550-PLUS WiFi II AMD AM4",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (2)/ASUS TUF Gaming B550-PLUS WiFi II AMD AM4.jpg",
+      "desc": "ASUS TUF Gaming B550-PLUS WiFi II AMD AM4 (3ª generación Ryzen™) ATX placa base (PCIe 4.0, 6, LAN de 2.5 Gb, flash BIOS, USB 3.2 2, encabezado direccionable 2 RGB y sincronización Aura)"
+    },
+    {
+      "id": "motherboard-msi-mag-b550-tomahawk-placa-base-para-juegos",
+      "title": "MSI MAG B550 TOMAHAWK - Placa base para juegos",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (5)/MSI MAG B550 TOMAHAWK - Placa base para juegos.jpg",
+      "desc": "MSI MAG B550 TOMAHAWK - Placa base para juegos (AMD AM4, DDR4, PCIe 4.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, HDMI/DP, ATX, procesadores AMD Ryzen serie 5000)"
+    },
+    {
+      "id": "motherboard-msi-placa-base-para-juegos-mpg-b550",
+      "title": "MSI Placa base para juegos MPG B550",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (6)/MSI Placa base para juegos MPG B550.jpg",
+      "desc": "MSI Placa base para juegos MPG B550 Gaming Plus V1 (AMD Ryzen 5000, AM4, DDR4, PCIe 4.0, SATA 6Gbs, M.2, USB 3.2 Gen 2, HDMIDP, ATX)"
+    },
+    {
+      "id": "motherboard-msi-mag-b550-tomahawk-max",
+      "title": "MSI MAG B550 Tomahawk MAX",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (7)/MSI MAG B550 Tomahawk MAX.jpg",
+      "desc": "MSI MAG B550 Tomahawk MAX - Placa base WiFi para juegos (AMD Ryzen 5000 Series, AM4, DDR4, PCIe 4.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.2, LAN de 2.5Gbps, ATX)"
+    },
+    {
+      "id": "motherboard-gigabyte-b550m",
+      "title": "GIGABYTE B550M",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (4)/GIGABYTE B550M.jpg",
+      "desc": "GIGABYTE B550M K - Tarjeta madre compatible con AM4AMDB550Micro-ATXDual M.2SATA 6GbsUSB 3.2 Gen 1Realtek GbE LANPCIe 4.0"
+    },
+    {
+      "id": "motherboard-msi-pro-h610m-g-ddr4-placa-base",
+      "title": "MSI PRO H610M-G DDR4 placa base",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (10)/MSI PRO H610M-G DDR4 placa base.jpg",
+      "desc": "MSI PRO H610M-G DDR4 placa base (Intel Core de 12ª/13ª/14ª generación, zócalo LGA 1700, DDR4, PCIe 4, SATA 6Gb/s, LAN de 1 Gbps, ranuras M.2, USB 3.2, mATX)"
+    },
+    {
+      "id": "motherboard-asus-prime-b760m-a-csm-intel-b760",
+      "title": "ASUS Prime B760M-A-CSM Intel B760",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (9)/ASUS Prime B760M-A-CSM Intel B760.jpg",
+      "desc": "ASUS Prime B760M-A-CSM Intel B760 (LGA 1700) mATX CSM Placa base comercial PCIe 4.0, DDR5, 2X M.2, LAN de 2.5 Gb, DP, 2 HDMI, SATA 6 Gbps, USB 3.2 tipo C, Aura Sync, ASUS Control Center Express"
+    },
+    {
+      "id": "motherboard-msi-pro-b550m-vc-wifi-proseries-placa-base",
+      "title": "MSI PRO B550M-VC WiFi ProSeries Placa base",
+      "category": "motherboard",
+      "image": "Zona-Hardware/motherboard/Nueva carpeta (3)/MSI PRO B550M-VC WiFi ProSeries Placa base.jpg",
+      "desc": "MSI PRO B550M-VC WiFi ProSeries Placa base (AMD Ryzen 5000 Series, AM4, DDR4, PCIe 4.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, HDMI/DP, Wi-Fi 6E, Bluetooth 5.2, mATX)"
+    }
   ]
 }
