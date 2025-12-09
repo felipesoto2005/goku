@@ -403,12 +403,12 @@ body {
 }
 
 /* Ícono */
-.zona-icon {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
-    animation: float 3s ease-in-out infinite;
+.zona-icon img {
+  width: 200px;   /* ancho fijo */
+  height: 200px;  /* alto fijo */
+  object-fit: cover; /* recorta y ajusta la imagen al cuadro */
+  border-radius: 8px; /* opcional: esquinas redondeadas */
 }
-
 /* Títulos dentro de cada card */
 .zona-card h3 {
     color: var(--accent-gold);
