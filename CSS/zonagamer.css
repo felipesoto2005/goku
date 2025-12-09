@@ -1,4 +1,3 @@
-
 :root {
     --primary-dark: #0a0e27;
     --secondary-dark: #16213e;
@@ -8,6 +7,8 @@
     --accent-cyan: #00eaff;
     --text-light: #e5e5e5;
     --text-secondary: #999;
+    --text-primary: #e5e5e5; /* añadido para nav-link */
+    --border-color: #444;     /* añadido para footer-bottom */
     --transition: 0.3s ease;
 }
 
@@ -21,12 +22,12 @@ body {
     background: var(--primary-dark);
     color: var(--text-light);
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
-
-/* ===========================
+/* ==========================================================
    HEADER / NAVEGACIÓN
-   =========================== */
+   ========================================================== */
 
 .header {
     background: linear-gradient(135deg, rgba(10, 14, 39, 0.8) 0%, rgba(22, 33, 62, 0.8) 100%);
@@ -126,18 +127,22 @@ body {
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
-
 /* ==========================================================
    HERO ZONA-GAMER
    ========================================================== */
-
 .zona-hero {
+    position: relative; /* no fixed */
+    width: 100%;
+    height: 100vh;
     background: url('imagenes/fondoGamer1.jpg') center/cover no-repeat;
-    padding: 120px 0 100px;
     text-align: center;
-    border-bottom: 3px solid var(--accent-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    z-index: 1; /* puede ser 1 o eliminarlo */
 }
-
 .hero-title {
     font-size: 6rem;
     color: #00f3ff;
@@ -161,15 +166,22 @@ body {
     box-shadow: 0 0 10px var(--accent-purple);
 }
 
+/* Para que el contenido después del hero no quede tapado */
+.main-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 100vh; /* espacio igual a hero */
+}
 
 /* ==========================================================
    FILTROS
    ========================================================== */
 
 .filtros-section {
-    padding: 20px 0;
+    position: relative; 
+    z-index: 2;         
+    padding: 40px 0;
 }
-
 .filtros {
     display: flex;
     justify-content: center;
@@ -195,7 +207,6 @@ body {
     box-shadow: 0 0 12px var(--accent-purple);
 }
 
-
 /* ==========================================================
    CATÁLOGO DE PRODUCTOS
    ========================================================== */
@@ -207,8 +218,8 @@ body {
 .section-title {
     text-align: center;
     font-size: 2.5rem;
-    color:#00eaff;
-    text-shadow: 0 0 12px var(--accent-cyan)
+    color: #00eaff;
+    text-shadow: 0 0 12px var(--accent-cyan);
 }
 
 .section-subtitle {
@@ -217,23 +228,15 @@ body {
     margin-top: 10px;
 }
 
-.productos-grid {
-    margin-top: 50px;
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-
-
 /* PRODUCTO TARJETAS */
 
 .productos-grid {
     width: 90%;
-    max-width: 1600px;   /* Mantiene un marco bonito */
-    margin: 0 auto;      /* Centra todo el grid */
+    max-width: 1600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /
-    gap: 25px;           /* Espacio entre tarjetas */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
     padding: 40px 0;
 }
 
@@ -288,7 +291,6 @@ body {
 .badge.oferta {
     background: linear-gradient(135deg, #ff0033, var(--accent-gold));
 }
-
 
 /* PRODUCTO TEXTO */
 
@@ -346,70 +348,9 @@ body {
     color: black;
 }
 
-
 /* ==========================================================
    FOOTER
    ========================================================== */
-
-.footer {
-    background: var(--secondary-dark);
-    padding: 50px 0 20px;
-    margin-top: 70px;
-    border-top: 3px solid var(--accent-purple);
-}
-
-.footer .container {
-    width: 90%;
-    margin: auto;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.footer-section h3 {
-    color: var(--accent-purple);
-    text-shadow: 0 0 10px var(--accent-purple);
-}
-
-.footer-section p,
-.footer-section a {
-    color: var(--text-light);
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li a:hover {
-    color: var(--accent-green);
-}
-
-.footer-bottom {
-    margin-top: 40px;
-    text-align: center;
-    color: var(--text-secondary);
-}
-
-
-/* ==========================================================
-   RESPONSIVE
-   ========================================================== */
-
-@media (max-width: 768px) {
-    .nav-list {
-        display: none;
-    }
-}
-
-
-/* ===========================
-   FOOTER
-   =========================== */
 
 .footer {
     background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
@@ -476,9 +417,9 @@ body {
     color: var(--text-secondary);
 }
 
-/* ===========================
+/* ==========================================================
    ANIMACIONES
-   =========================== */
+   ========================================================== */
 
 @keyframes float {
     0%, 100% {
@@ -517,5 +458,60 @@ body {
     }
     100% {
         left: 100%;
+    }
+}
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+
+@media (max-width: 1024px) {
+    .productos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .filtros {
+        flex-direction: column;
+        gap: 10px;
     }
 }
