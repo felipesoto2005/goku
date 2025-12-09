@@ -26,3 +26,50 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const botonesComprar = document.querySelectorAll(".comprar-btn");
+    const carritoCount = document.getElementById("carrito-count");
+
+    // Cargar carrito desde localStorage
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+
+    // Actualizar contador al cargar
+    actualizarContador();
+
+    // Agregar evento a cada botón
+    botonesComprar.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const card = btn.closest(".producto-card");
+            const producto = {
+                id: card.dataset.id,
+                nombre: card.dataset.nombre,
+                precio: parseFloat(card.dataset.precio),
+                cantidad: 1
+            };
+
+            agregarAlCarrito(producto);
+        });
+    });
+
+    function agregarAlCarrito(producto) {
+        // Revisar si ya existe el producto
+        const existe = carrito.find(p => p.id === producto.id);
+        if (existe) {
+            existe.cantidad += 1;
+        } else {
+            carrito.push(producto);
+        }
+
+        // Guardar en localStorage
+        localStorage.setItem("carrito", JSON.stringify(carrito));
+
+        // Actualizar contador
+        actualizarContador();
+    }
+
+    function actualizarContador() {
+        const total = carrito.reduce((sum, item) => sum + item.cantidad, 0);
+        carritoCount.textContent = total;
+    }
+});
