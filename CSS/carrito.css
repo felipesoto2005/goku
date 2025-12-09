@@ -1,0 +1,387 @@
+:root {
+    --primary-dark: #0a0e27;
+    --secondary-dark: #16213e;
+    --accent-green: #00ff88;
+    --accent-gold: #ffd700;
+    --accent-purple: #b300ff;
+    --text-light: #ffffff;
+    --text-secondary: #cccccc;
+    --transition: 0.3s;
+}
+/* ===========================
+   HEADER / NAVEGACIÓN
+   =========================== */
+.header {
+    background: linear-gradient(135deg, rgba(10, 14, 39, 0.8) 0%, rgba(22, 33, 62, 0.8) 100%);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid var(--accent-gold);
+    box-shadow: 0 8px 32px rgba(255, 215, 0, 0.2), inset 0 0 20px rgba(0, 255, 136, 0.05);
+}
+
+.header .container {
+    display: flex;
+    justify-content: center; /* centra todo horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    gap: 50px;               /* espacio entre logo y nav */
+    flex-wrap: wrap;          /* que se acomode en pantallas pequeñas */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-cyan), var(--accent-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.6));
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: var(--transition);
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, var(--accent-gold), var(--accent-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-gold), var(--accent-cyan));
+    transition: width 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* ===========================
+   HAMBURGER PARA MOVILES
+   =========================== */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 6px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: var(--accent-gold);
+    border-radius: 2px;
+    transition: var(--transition);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+:root {
+    --primary-dark: #0a0e27;
+    --secondary-dark: #16213e;
+    --accent-green: #00ff88;
+    --accent-gold: #ffd700;
+    --accent-purple: #b300ff;
+    --text-light: #ffffff;
+    --text-secondary: #cccccc;
+    --transition: 0.3s;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--text-light);
+    margin: 0;
+    padding: 0;
+}
+
+.header { /* Header simplificado para demo */ }
+
+.carrito-section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.carrito-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: var(--accent-green);
+    text-align: center;
+}
+
+#carrito-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carrito-item {
+    display: flex;
+    gap: 20px;
+    background-color: #16213e;
+    border: 2px solid var(--accent-green);
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+}
+
+.carrito-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: var(--accent-gold);
+}
+
+.item-info p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.item-info span {
+    font-weight: bold;
+    color: var(--accent-green);
+}
+
+.item-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-buttons button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: bold;
+}
+
+.eliminar-item {
+    background-color: #ff4c4c;
+    color: #fff;
+}
+
+.eliminar-item:hover {
+    background-color: #ff0000;
+}
+
+.cantidad-mas, .cantidad-menos {
+    background-color: var(--accent-purple);
+    color: #fff;
+}
+
+.cantidad-mas:hover, .cantidad-menos:hover {
+    background-color: #ff00d0;
+}
+
+.carrito-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#vaciar-carrito {
+    background-color: #ff4c4c;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+}
+
+#vaciar-carrito:hover {
+    background-color: #ff0000;
+}
+
+#carrito-total {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--accent-green);
+}
+
+@media (max-width: 768px) {
+    .carrito-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .item-buttons {
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+/* ==========================
+   FOOTER
+   ========================== */
+   
+.footer {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
+    border-top: 2px solid var(--accent-purple);
+    padding: 50px 0 20px;
+    margin-top: 80px;
+    text-align: center; /* centra todo el contenido */
+}
+
+.footer .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-items: center; /* centra cada sección horizontalmente */
+    margin-bottom: 40px;
+}
+
+.footer-section h4 {
+    color: var(--accent-green);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.footer-section p {
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center; /* centra los íconos y texto */
+}
+
+.footer-section p i {
+    color: var(--accent-cyan);
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: var(--accent-green);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-section ul li a:hover {
+    color: var(--accent-cyan);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* centra los iconos sociales */
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary-dark);
+    border: 2px solid var(--accent-green);
+    border-radius: 50%;
+    color: var(--accent-green);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    background: var(--accent-green);
+    color: var(--primary-dark);
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--accent-green);
+    padding-top: 20px;
+    text-align: center;
+    color: var(--text-secondary);
+    justify-content: center;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
