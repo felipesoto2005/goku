@@ -227,6 +227,16 @@ body {
 
 /* PRODUCTO TARJETAS */
 
+.productos-grid {
+    width: 90%;
+    max-width: 1600px;   /* Mantiene un marco bonito */
+    margin: 0 auto;      /* Centra todo el grid */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /
+    gap: 25px;           /* Espacio entre tarjetas */
+    padding: 40px 0;
+}
+
 .producto-card {
     background: linear-gradient(135deg, rgba(26,47,78,0.25), rgba(15,24,35,0.25));
     border: 2px solid var(--accent-purple);
