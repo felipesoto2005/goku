@@ -48,22 +48,47 @@
     if(!id){
       document.getElementById('notFound').style.display='block';
     } else {
-      fetch('productos-detalle/productos.json').then(r=>r.json()).then(data=>{
-        const prod = data.products.find(p=>p.id===id);
-        if(!prod){document.getElementById('notFound').style.display='block'; return}
-        document.getElementById('product').style.display='block';
-        document.getElementById('title').textContent = prod.title;
-        // Ajustar rutas de imagen: JSON usa rutas relativas desde productos-detalle, convertir a raíz
-        let imgPath = prod.image || '';
-        if(imgPath.startsWith('../')) imgPath = imgPath.replace(/^\.\.\//, '');
-        document.getElementById('img').src = imgPath;
-        document.getElementById('img').alt = prod.title;
-        document.getElementById('price').textContent = prod.price;
-        document.getElementById('short').textContent = prod.short;
-        const specs = document.getElementById('specs'); specs.innerHTML='';
-        (prod.specs||[]).forEach(s=>{ const li=document.createElement('li'); li.textContent=s; specs.appendChild(li)});
-        document.getElementById('buy').addEventListener('click', ()=>{ alert('Añadido al carrito (simulado): '+prod.title) });
-      }).catch(err=>{console.error(err);document.getElementById('notFound').style.display='block'});
+      (async function(){
+        try{
+          const data = await fetch('productos-detalle/productos.json').then(r=>r.json());
+          let prod = (data.products||[]).find(p=>p.id===id);
+
+          if(!prod){
+            // Fallback: buscar en catálogo de Hardware
+            const hw = await fetch('Zona-Hardware/catalogo.json').then(r=>r.json());
+            const item = (hw.items||[]).find(i=>i.id===id);
+            if(item){
+              prod = {
+                title: item.title,
+                image: item.image,
+                price: 'Consultar',
+                short: item.desc || '',
+                specs: []
+              };
+            }
+          }
+
+          if(!prod){
+            document.getElementById('notFound').style.display='block';
+            return;
+          }
+
+          document.getElementById('product').style.display='block';
+          document.getElementById('title').textContent = prod.title;
+          let imgPath = prod.image || '';
+          if(imgPath.startsWith('../')) imgPath = imgPath.replace(/^\.{2}\//, '');
+          document.getElementById('img').src = imgPath;
+          document.getElementById('img').alt = prod.title;
+          document.getElementById('price').textContent = prod.price || '';
+          document.getElementById('short').textContent = prod.short || '';
+          const specs = document.getElementById('specs'); specs.innerHTML='';
+          (prod.specs||[]).forEach(s=>{ const li=document.createElement('li'); li.textContent=s; specs.appendChild(li)});
+          document.getElementById('buy').addEventListener('click', ()=>{ alert('Añadido al carrito (simulado): '+prod.title) });
+        }catch(err){
+          console.error(err);
+          document.getElementById('notFound').style.display='block';
+        }
+      })();
     }
   </script>
 </body>

@@ -27,6 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="producto-content">
           <h3>${escapeHtml(item.title)}</h3>
           <p class="descripcion-vikinga">${escapeHtml(item.desc)}</p>
+          <div style="margin-top:8px">
+            <a class="comprar-btn" href="producto.html?id=${encodeURIComponent(item.id)}">🛡️ Ver Detalles</a>
+          </div>
         </div>
       `;
       grid.appendChild(card);
