@@ -105,7 +105,7 @@ function agregarAlCarrito(nombre, precio, imagen) {
 document.querySelectorAll('.comprar-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         const nombre = btn.dataset.nombre;
-        const precio = parseFloat(btn.dataset.precio);
+        const precio = parsePrecio(card.querySelector(".precio-actual").textContent);
         const imagen = btn.dataset.imagen;
 
         const productoExistente = carrito.find(p => p.nombre === nombre);

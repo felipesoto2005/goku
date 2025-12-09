@@ -52,3 +52,34 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+const comprarBtns = document.querySelectorAll('.comprar-btn');
+
+comprarBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        // Crear notificación
+        const notification = document.createElement('div');
+        notification.className = 'notification';
+        notification.textContent = '✓ Producto agregado al carrito';
+        document.body.appendChild(notification);
+
+        // Mostrar notificación con animación
+        setTimeout(() => {
+            notification.classList.add('show');
+        }, 10);
+
+        // Eliminar notificación después de 3 segundos
+        setTimeout(() => {
+            notification.classList.remove('show');
+            setTimeout(() => {
+                notification.remove();
+            }, 300);
+        }, 3000);
+
+        // Efecto visual en el botón
+        btn.style.transform = 'scale(0.95)';
+        setTimeout(() => {
+            btn.style.transform = 'scale(1)';
+        }, 200);
+    });
+});

@@ -51,6 +51,23 @@ body {
     
 }
 
+.header-carrito {
+    background-color: var(--accent-green); /* color de fondo del carrito */
+    color: var(--primary-dark);            /* color del ícono o texto */
+    border: 2px solid var(--accent-green);
+    border-radius: 8px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.header-carrito:hover {
+    background-color: #00cc6a; /* un verde más oscuro al pasar el mouse */
+}
+
 /* ===========================
    ELEMENTOS VIKINGOS
    =========================== */
@@ -71,9 +88,7 @@ body {
     margin-top: 15px;
 }
 
-/* ===========================
-   HEADER / NAVEGACIÓN
-   =========================== */
+
 /* ===========================
    HEADER / NAVEGACIÓN
    =========================== */

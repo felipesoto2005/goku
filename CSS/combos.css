@@ -317,6 +317,7 @@ body {
     margin-bottom: 10px;
 }
 
+
 /* ==========================
    FOOTER
    ========================== */
@@ -415,6 +416,23 @@ body {
     color: var(--text-secondary);
     justify-content: center;
 }
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
 
 /* ===========================
    RESPONSIVE

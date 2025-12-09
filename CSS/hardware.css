@@ -445,7 +445,9 @@ body {
     .hero-subtitle { font-size: 1.2rem; }
     .producto-image { height: 200px; }
     .producto-content { padding: 15px; }
-}.header-carrito {
+}
+
+.header-carrito {
     background-color: var(--accent-green); /* color de fondo del carrito */
     color: var(--primary-dark);            /* color del ícono o texto */
     border: 2px solid var(--accent-green);
