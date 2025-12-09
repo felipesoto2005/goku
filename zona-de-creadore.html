@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Creadores - Tronvalk</title>
+    <link rel="stylesheet" href="CSS/zonacreadores.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+        <a href="tronvalk.html" class="logo">
+            <img src="imagenes/logo.png" alt="Tronvalk Logo" class="logo-img">
+            <span>TRONVALK</span>
+        </a>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="tronvalk.html" class="nav-link">Inicio</a></li>
+                <li><a href="zona-gamer.html" class="nav-link">Zona Gamer</a></li>
+                <li><a href="Zona-estudiantes.html" class="nav-link">Zona Estudiantes</a></li>
+                <li><a href="zona-de-creadore.html" class="nav-link active">Zona Creadores</a></li>
+                <li><a href="combos.html" class="nav-link">Combos</a></li>
+                <li><a href="promos.html" class="nav-link">Promos</a></li>
+                <li><a href="hardware.html" class="nav-link">Hardware</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</header>
+
+    <!-- HERO SECTION ZONA CREADORES -->
+    <section class="hero zona-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">🎨 ZONA CREADORES 🎨</h1>
+            <p class="hero-subtitle">Herramientas profesionales para dar vida a tus ideas.</p>
+            <div class="rune-divider"></div>
+        </div>
+    </section>
+
+    <!-- FILTROS DE PRODUCTOS -->
+    <section class="filtros-section">
+        <div class="container">
+            <div class="filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="computadoras">Workstations</button>
+                <button class="filtro-btn" data-filtro="monitores">Monitores</button>
+                <button class="filtro-btn" data-filtro="perifericos">Periféricos</button>
+                <button class="filtro-btn" data-filtro="estudio">Estudio</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATÁLOGO DE PRODUCTOS ZONA CREADORES -->
+    <section class="catalogo">
+        <div class="container">
+            <h2 class="section-title">🖌️ ESTUDIO CREATIVO 🖌️</h2>
+            <p class="section-subtitle">Equipamiento de alto rendimiento para diseño, edición y renderizado</p>
+            <div class="productos-grid" id="productosGrid">
+
+                <div class="producto-card" data-categoria="computadoras">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto/- Laptop Intel i7 + RTX 3060 + 32GB RAM.jpg" alt="Laptop N-one 16&quot; i7" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Laptop N-one 16" i7</h3>
+                        <p class="descripcion-vikinga">Intel i7-13620H, 32GB RAM, 1TB SSD, RTX 3060</p>
+                        <div class="precio">
+                            <span class="precio-actual">$1,299.99</span>
+                        </div>
+                        <a href="producto.html?id=laptop-n-one" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="computadoras">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (2)/PC Workstation AMD Ryzen 9 + 64GB RAM.jpg" alt="Mini PC GMKtec K11" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Mini PC GMKtec K11</h3>
+                        <p class="descripcion-vikinga">Ryzen 9 8945HS, 64GB DDR5, 1TB SSD, USB4</p>
+                        <div class="precio">
+                            <span class="precio-actual">$899.99</span>
+                        </div>
+                        <a href="producto.html?id=mini-pc-gmktec" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="monitores">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (3)/- Monitor 4K IPS calibrado para color.webp" alt="Monitor LG 27&quot; 4K UHD" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Monitor LG 27" 4K UHD</h3>
+                        <p class="descripcion-vikinga">IPS, HDR10, Calibrado sRGB, Diseño sin bordes</p>
+                        <div class="precio">
+                            <span class="precio-actual">$299.99</span>
+                        </div>
+                        <a href="producto.html?id=monitor-lg-4k" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="perifericos">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (4)/Tableta gráfica Wacom median.webp" alt="Wacom Intuos Medium" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Wacom Intuos Medium</h3>
+                        <p class="descripcion-vikinga">Tableta gráfica Bluetooth, 4096 niveles presión</p>
+                        <div class="precio">
+                            <span class="precio-actual">$199.99</span>
+                        </div>
+                        <a href="producto.html?id=wacom-intuos" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="perifericos">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (5)/- Mouse vertical ergonómico.jpg" alt="Mouse Ergonómico AOC" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Mouse Ergonómico AOC</h3>
+                        <p class="descripcion-vikinga">Diseño vertical para reducir tensión, inalámbrico</p>
+                        <div class="precio">
+                            <span class="precio-actual">$29.99</span>
+                        </div>
+                        <a href="producto.html?id=mouse-aoc" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="perifericos">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (6)/Teclado mecánico silencioso.webp" alt="Teclado MageGee 60%" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Teclado MageGee 60%</h3>
+                        <p class="descripcion-vikinga">Mecánico, Switches Rojos Silenciosos, Compacto</p>
+                        <div class="precio">
+                            <span class="precio-actual">$39.99</span>
+                        </div>
+                        <a href="producto.html?id=teclado-magegee" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="perifericos">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (7)/SSD externo 2TB USB-C.webp" alt="SSD SanDisk Extreme 2TB" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>SSD SanDisk Extreme 2TB</h3>
+                        <p class="descripcion-vikinga">1050MB/s, USB-C, Resistente agua/polvo IP65</p>
+                        <div class="precio">
+                            <span class="precio-actual">$169.99</span>
+                        </div>
+                        <a href="producto.html?id=ssd-sandisk" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (8)/Software Adobe Creative Cloud.jpg" alt="Adobe Creative Cloud Pro" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Adobe Creative Cloud Pro</h3>
+                        <p class="descripcion-vikinga">Suscripción 12 meses, 20+ apps, 100GB Cloud</p>
+                        <div class="precio">
+                            <span class="precio-actual">$599.99</span>
+                        </div>
+                        <a href="producto.html?id=adobe-cc" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (9)/- Audífonos de estudio con cancelación.webp" alt="Audífonos Bose QuietComfort" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Audífonos Bose QuietComfort</h3>
+                        <p class="descripcion-vikinga">Cancelación de ruido, Bluetooth, 24h batería</p>
+                        <div class="precio">
+                            <span class="precio-actual">$249.99</span>
+                        </div>
+                        <a href="producto.html?id=audifonos-bose" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (10)/Micrófono condensador USB.jpg" alt="Micrófono Audio-Technica" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Micrófono Audio-Technica</h3>
+                        <p class="descripcion-vikinga">Condensador USB, Cardioide, Alta fidelidad</p>
+                        <div class="precio">
+                            <span class="precio-actual">$149.99</span>
+                        </div>
+                        <a href="producto.html?id=mic-audio-technica" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (11)/Cámara DSLR para contenido.jpg" alt="Canon EOS Rebel T7" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Canon EOS Rebel T7</h3>
+                        <p class="descripcion-vikinga">Kit con lentes 18-55mm y 75-300mm, Full HD</p>
+                        <div class="precio">
+                            <span class="precio-actual">$549.99</span>
+                        </div>
+                        <a href="producto.html?id=canon-t7" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (12)/- Trípode ajustable profesional.webp" alt="Trípode Profesional 74&quot;" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Trípode Profesional 74"</h3>
+                        <p class="descripcion-vikinga">Aluminio, Soporte celular/cámara, Bolsa viaje</p>
+                        <div class="precio">
+                            <span class="precio-actual">$39.99</span>
+                        </div>
+                        <a href="producto.html?id=tripode-profesional" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (13)/- Iluminación LED para grabación.webp" alt="Kit Iluminación LED" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Kit Iluminación LED</h3>
+                        <p class="descripcion-vikinga">2 Paneles LED, Trípodes, Regulable 2800-6500K</p>
+                        <div class="precio">
+                            <span class="precio-actual">$89.99</span>
+                        </div>
+                        <a href="producto.html?id=kit-luces-led" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="perifericos">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (14)/- Hub Thunderbolt para periféricos.webp" alt="Dock UGREEN Thunderbolt 4" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Dock UGREEN Thunderbolt 4</h3>
+                        <p class="descripcion-vikinga">8 en 1, 40Gbps, Dual 4K/Single 8K, Carga 85W</p>
+                        <div class="precio">
+                            <span class="precio-actual">$199.99</span>
+                        </div>
+                        <a href="producto.html?id=dock-ugreen" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="producto-card" data-categoria="estudio">
+                    <div class="producto-image">
+                        <img src="Zona-creativa/producto (15)/- Silla ergonómica tipo estudio.jpg" alt="Silla Ergonómica FelixKing" class="product-img">
+                    </div>
+                    <div class="producto-content">
+                        <h3>Silla Ergonómica FelixKing</h3>
+                        <p class="descripcion-vikinga">Soporte lumbar, Malla transpirable, Ajustable</p>
+                        <div class="precio">
+                            <span class="precio-actual">$129.99</span>
+                        </div>
+                        <a href="producto.html?id=silla-felixking" style="text-decoration: none;">
+                            <button class="comprar-btn">🎨 Ver Detalles</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🎨 TRONVALK 🎨</h3>
+                    <p>Potenciando la creatividad digital</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="tronvalk.html">Inicio</a></li>
+                        <li><a href="zona-gamer.html">Zona Gamer</a></li>
+                        <li><a href="Zona-estudiantes.html">Zona Estudiantes</a></li>
+                        <li><a href="zona-de-creadore.html">Zona Creadores</a></li>
+                        <li><a href="combos.html">Combos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>📧 info@tronvalk.com</p>
+                    <p>📱 +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TRONVALK. Todos los derechos reservados. ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Sistema de filtros para Zona Creadores
+        document.querySelectorAll('.filtro-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remover active de todos
+                document.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('active'));
+                // Añadir active al clickeado
+                btn.classList.add('active');
+
+                const filtro = btn.dataset.filtro;
+                const productos = document.querySelectorAll('.producto-card');
+
+                productos.forEach(producto => {
+                    if (filtro === 'todos' || producto.dataset.categoria === filtro) {
+                        producto.style.display = 'block';
+                        setTimeout(() => {
+                            producto.classList.add('visible');
+                        }, 10);
+                    } else {
+                        producto.classList.remove('visible');
+                        setTimeout(() => {
+                            producto.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // Mostrar todos los productos al cargar
+        document.querySelectorAll('.producto-card').forEach(card => {
+            card.classList.add('visible');
+        });
+    </script>
+</body>
+</html>
