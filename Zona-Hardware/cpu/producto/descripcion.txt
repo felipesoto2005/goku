@@ -1,0 +1,1 @@
+Intel Procesador de escritorio Core 12ª generación i3-12100F, con soporte PCIe Gen 5.0 y 4.0, soporte DDR5 y DDR4. Se requieren gráficos discretos.
