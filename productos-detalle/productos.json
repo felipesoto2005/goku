@@ -289,5 +289,35 @@
     {"id":"impresora-hp","title":"Impresora HP DeskJet 2827e","category":"perifericos","image":"zona-estudiantil/producto (9)/- Impresora multifuncional económica.jpg","price":"$69.99","short":"Multifuncional, WiFi, Inyección de tinta","specs":["Multifunción","WiFi","Tinta"],"badge":""}
     ,
     {"id":"laptop-hp-i3","title":"Laptop HP 15.6\" Intel i3","category":"computadoras","image":"zona-estudiantil/producto/- Laptop Intel i3 8GB RAM 256GB SSD.webp","price":"$379.99","short":"i3-1215U, 8GB RAM, 256GB SSD, Win 11","specs":["i3-1215U","8GB RAM","256GB SSD","Win 11"],"badge":""}
+    ,
+    {"id":"laptop-n-one","title":"Laptop N-one 16\" i7","category":"computadoras","image":"Zona-creativa/producto/- Laptop Intel i7 + RTX 3060 + 32GB RAM.jpg","price":"$1,299.99","short":"Intel i7-13620H, 32GB RAM, 1TB SSD, RTX 3060","specs":["i7-13620H","32GB RAM","1TB SSD","RTX 3060"],"badge":""}
+    ,
+    {"id":"mini-pc-gmktec","title":"Mini PC GMKtec K11","category":"computadoras","image":"Zona-creativa/producto (2)/PC Workstation AMD Ryzen 9 + 64GB RAM.jpg","price":"$899.99","short":"Ryzen 9 8945HS, 64GB DDR5, 1TB SSD, USB4","specs":["Ryzen 9 8945HS","64GB DDR5","1TB SSD","USB4"],"badge":""}
+    ,
+    {"id":"monitor-lg-4k","title":"Monitor LG 27\" 4K UHD","category":"monitores","image":"Zona-creativa/producto (3)/- Monitor 4K IPS calibrado para color.webp","price":"$299.99","short":"IPS, HDR10, Calibrado sRGB, Diseño sin bordes","specs":["IPS","HDR10","sRGB"],"badge":""}
+    ,
+    {"id":"wacom-intuos","title":"Wacom Intuos Medium","category":"perifericos","image":"Zona-creativa/producto (4)/Tableta gráfica Wacom median.webp","price":"$199.99","short":"Tableta gráfica Bluetooth, 4096 niveles presión","specs":["Bluetooth","4096 niveles"],"badge":""}
+    ,
+    {"id":"mouse-aoc","title":"Mouse Ergonómico AOC","category":"perifericos","image":"Zona-creativa/producto (5)/- Mouse vertical ergonómico.jpg","price":"$29.99","short":"Diseño vertical para reducir tensión, inalámbrico","specs":["Vertical","Inalámbrico"],"badge":""}
+    ,
+    {"id":"teclado-magegee","title":"Teclado MageGee 60%","category":"perifericos","image":"Zona-creativa/producto (6)/Teclado mecánico silencioso.webp","price":"$39.99","short":"Mecánico, Switches Rojos Silenciosos, Compacto","specs":["Mecánico","Rojos","Compacto"],"badge":""}
+    ,
+    {"id":"ssd-sandisk","title":"SSD SanDisk Extreme 2TB","category":"perifericos","image":"Zona-creativa/producto (7)/SSD externo 2TB USB-C.webp","price":"$169.99","short":"1050MB/s, USB-C, Resistente agua/polvo IP65","specs":["1050MB/s","USB-C","IP65"],"badge":""}
+    ,
+    {"id":"adobe-cc","title":"Adobe Creative Cloud Pro","category":"estudio","image":"Zona-creativa/producto (8)/Software Adobe Creative Cloud.jpg","price":"$599.99","short":"Suscripción 12 meses, 20+ apps, 100GB Cloud","specs":["12 meses","20+ apps","100GB"],"badge":""}
+    ,
+    {"id":"audifonos-bose","title":"Audífonos Bose QuietComfort","category":"estudio","image":"Zona-creativa/producto (9)/- Audífonos de estudio con cancelación.webp","price":"$249.99","short":"Cancelación de ruido, Bluetooth, 24h batería","specs":["ANC","Bluetooth","24h"],"badge":""}
+    ,
+    {"id":"mic-audio-technica","title":"Micrófono Audio-Technica","category":"estudio","image":"Zona-creativa/producto (10)/Micrófono condensador USB.jpg","price":"$149.99","short":"Condensador USB, Cardioide, Alta fidelidad","specs":["USB","Cardioide","Hi-Fi"],"badge":""}
+    ,
+    {"id":"canon-t7","title":"Canon EOS Rebel T7","category":"estudio","image":"Zona-creativa/producto (11)/Cámara DSLR para contenido.jpg","price":"$549.99","short":"Kit con lentes 18-55mm y 75-300mm, Full HD","specs":["18-55mm","75-300mm","Full HD"],"badge":""}
+    ,
+    {"id":"tripode-profesional","title":"Trípode Profesional 74\"","category":"estudio","image":"Zona-creativa/producto (12)/- Trípode ajustable profesional.webp","price":"$39.99","short":"Aluminio, Soporte celular/cámara, Bolsa viaje","specs":["Aluminio","Soporte","Bolsa"],"badge":""}
+    ,
+    {"id":"kit-luces-led","title":"Kit Iluminación LED","category":"estudio","image":"Zona-creativa/producto (13)/- Iluminación LED para grabación.webp","price":"$89.99","short":"2 Paneles LED, Trípodes, Regulable 2800-6500K","specs":["2 Paneles","Trípodes","2800-6500K"],"badge":""}
+    ,
+    {"id":"dock-ugreen","title":"Dock UGREEN Thunderbolt 4","category":"perifericos","image":"Zona-creativa/producto (14)/- Hub Thunderbolt para periféricos.webp","price":"$199.99","short":"8 en 1, 40Gbps, Dual 4K/Single 8K, Carga 85W","specs":["8 en 1","40Gbps","85W"],"badge":""}
+    ,
+    {"id":"silla-felixking","title":"Silla Ergonómica FelixKing","category":"estudio","image":"Zona-creativa/producto (15)/- Silla ergonómica tipo estudio.jpg","price":"$129.99","short":"Soporte lumbar, Malla transpirable, Ajustable","specs":["Lumbar","Malla","Ajustable"],"badge":""}
   ]
 }
